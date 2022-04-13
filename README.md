@@ -6,12 +6,6 @@ The Inertial Sense hardware design files are made available to facilitate produc
 
  - **PCB Libraries** - Schematic and layout files for printed circuit board designs.
  - **Products** - 3D models and resources for the uINS, Rugged, EVB, and products useful for CAD and circuit board designs.
- - [EVB-2 Evaluation Board](https://github.com/inertialsense/IS-hdw-EVB2) - Development board which contains the Inertial Sense µINS, µAHRS, or µIMU module. The EVB-2 builds on the foundation established by the EVB-1, but adds these and other new features:
-   - 915MHz Xbee radio for RTK (real-time-kinematics)
-   - Wi-Fi and Bluetooth Low energy (BLE) for remote data viewing and logging operation
-   - Onboard logging to micro SD card.
-   - Dual antenna ports for GPS compassing
-   - Companion Microchip SAME70 processor that serves as a communication bridge between the µINS, µAHRS, or µIMU and all other interfaces.
 
 ------
 
