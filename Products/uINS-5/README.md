@@ -4,6 +4,38 @@
 
 The Inertial Sense uINS is a miniature calibrated dual external GNSS aided Inertial Navigation System (GNSS-INS) that provides attitude/orientation, velocity, position and robust heading not reliant on magnetometer input.  GNSS receivers are not included onboard.
 
+## Features
+
+●    **Tactical Grade IMU**
+
+●    **Gyro: 1.5 °/hr Bias Instability, 0.17 °/√hr ARW**
+
+●    **Accel: 20 µg Bias Instability, 0.04 m/s/√hr VRW**
+
+●    **0.05° Roll/Pitch, 0.08° Dynamic Heading**
+
+●    **Surface Mount Reflowable (PCB Module)**
+
+●    Up to 1KHz IMU and INS Output Data Rate
+
+●    External GNSS Support (Multi-Band)
+
+●    Attitude (Roll, Pitch, Yaw, Quaternions), Velocity, and Position UTC Time Synchronized
+
+●    Triple Redundant IMUs Calibrated for Bias, Scale Factor, Cross-axis Alignment, and G-sensitivity
+
+●    -40°C to 85°C Sensor Temperature Calibration
+
+●    Binary and NMEA ASCII Protocol
+
+●    Barometric Pressure and Humidity
+
+●    Strobe In/Out Data Sync (Camera Shutter Event) 
+
+●    Fast Integration with SDK and Example Software
+
+
+
 ## LICENSE
 
 <img src="https://www.oshwa.org/wp-content/uploads/2014/03/oshw-logo.svg" width="100" align="right" />
