@@ -10,25 +10,18 @@ The Inertial Sense uINS is a miniature calibrated dual external GNSS aided Inert
   - **Gyro: 1.5 °/hr Bias Instability, 0.17 °/√hr ARW**
   - **Accel: 20 µg Bias Instability, 0.04 m/s/√hr VRW**
 - **High Accuracy INS (w/ uINS-5):  0.05° Roll/Pitch, 0.08° Dynamic Heading** 
-
 - Surface Mount Reflowable (PCB Module)
-
 - Up to 1KHz IMU and INS Output Data Rate
-
+- Small Form Factor:  15.6 x 12.5 x 2.9 mm
+- Light Weight:  0.8 g
+- Low power consumption:  <110mW
 - External GNSS Support (Multi-Band)
-
 - Attitude (Roll, Pitch, Yaw, Quaternions), Velocity, and Position UTC Time Synchronized
-
 - Triple Redundant IMUs Calibrated for Bias, Scale Factor, Cross-axis Alignment, and G-sensitivity
-
 - -40°C to 85°C Sensor Temperature Calibration
-
 - Binary and NMEA ASCII Protocol
-
 - Barometric Pressure and Humidity
-
 - Strobe In/Out Data Sync (Camera Shutter Event) 
-
 - Fast Integration with SDK and Example Software
 
 ## Applications

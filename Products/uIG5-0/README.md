@@ -15,7 +15,7 @@ The Inertial Sense uIG5 module combines the uINS and up to two ublox ZED-F9P mul
 - Dual onboard multi-band GNSS receivers. 
 - Dual U.FL antenna ports for GPS compassing.
 - Small form factor:  65.2 x 24.5 x 5.9 mm
-- Light weight: <15g
+- Light weight:  <15g
 - Low power consumption:  <1500mW
 - Surface Mount Reflowable.
 - Breakout header and micro USB interface to the uINS.
