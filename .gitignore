@@ -1,0 +1,20 @@
+*.Zip
+*.SchDocPreview
+*.PCBDOCPreview
+*.PCB3DLib
+*.PrjPCBStructure
+*.txtPreview
+*.arpref
+*.htm
+*.html
+*.drc
+*.step
+*.LOG
+Logs/
+Output/
+ODB/
+Gerber/
+NC Drill/
+History/
+Manufacturing/
+Status Report.Txt
