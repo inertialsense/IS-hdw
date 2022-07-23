@@ -4,15 +4,40 @@
 
 The Inertial Sense [EVB-2](https://docs.inertialsense.com/user-manual/hardware/EVB2/) is a development board which contains the Inertial Sense µINS, µAHRS, or µIMU module. The EVB-2 builds on the foundation established by the EVB-1, but adds these and other new features.
 
+The EVB-2 PCB assembly design files are provided in Altium Designer format.
+
 ## Features
 
 - 915MHz Xbee radio for RTK (real-time-kinematics)
 - Wi-Fi and Bluetooth Low energy (BLE) for remote data viewing and logging operation
 - Onboard logging to micro SD card.
-- Dual antenna ports for GPS compassing
 - Companion Microchip SAME70 processor that serves as a communication bridge between the µINS, µAHRS, or µIMU and all other interfaces.
 
-The EVB-2 PCB assembly design files are provided in Altium Designer format.
+- **Tactical Grade IMU (w/ uINS-5)**
+  - **Gyro: 1.5 °/hr Bias Instability, 0.17 °/√hr ARW**
+  - **Accel: 20 μg Bias Instability, 0.04 m/s/√hr VRW**
+
+- **High Accuracy INS (w/ uINS-5):  0.05° Roll/Pitch, 0.08° Dynamic Heading**
+- Up to 1KHz IMU and INS Output Data Rate
+- Dual onboard GNSS receivers
+- Dual SMA antenna ports for GPS compassing
+- Size:  70.5 x 45.0 x 12.6 mm
+- UART x3, RS232, RS485, CAN, and SPI interfaces
+- Integrated CAN and RS232 / RS485 transceivers
+- Voltage regulation for 3.3V - 17V input
+
+## Applications
+
+- Drone Navigation
+- Unmanned Vehicle Payloads
+- Ground and Aerial Survey
+- Automotive Navigation
+- Stabilized Platforms
+- Antenna and Camera Pointing
+- First Responder and Trackers
+- Health, Fitness, and Sport Monitors
+- Robotics and Ground Vehicles
+- Maritime
 
 ------
 

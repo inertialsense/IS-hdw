@@ -16,6 +16,7 @@ The Inertial Sense uINS is a miniature calibrated dual GPS aided Inertial Naviga
 - -40°C to 85°C Sensor Temperature Calibration
 - Binary and NMEA ASCII Protocol
 - Barometric Pressure and Humidity
+- UART x3, SPI interfaces
 - Strobe In/Out Data Sync (Camera Shutter Event) 
 - Fast Integration with SDK and Example Software
 
