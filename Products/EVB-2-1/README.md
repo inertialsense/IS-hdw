@@ -1,8 +1,10 @@
 # EVB-2 Evaluation Board
 
-![EVB-2](images/top.png)
+![EVB-2](Images/top.png)
 
-The Inertial Sense [EVB-2](https://docs.inertialsense.com/user-manual/hardware/EVB2/) is a development board which contains the Inertial Sense µINS, µAHRS, or µIMU module. The EVB-2 builds on the foundation established by the EVB-1, but adds these and other new features:
+The Inertial Sense [EVB-2](https://docs.inertialsense.com/user-manual/hardware/EVB2/) is a development board which contains the Inertial Sense µINS, µAHRS, or µIMU module. The EVB-2 builds on the foundation established by the EVB-1, but adds these and other new features.
+
+## Features
 
 - 915MHz Xbee radio for RTK (real-time-kinematics)
 - Wi-Fi and Bluetooth Low energy (BLE) for remote data viewing and logging operation

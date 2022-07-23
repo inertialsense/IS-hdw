@@ -1,6 +1,6 @@
 # EVB-1
 
-![evb-1](images/evb-1-400x400.jpg)
+![evb-1](Images/evb-1-400x400.jpg)
 
 The Inertial Sense EVB1.x is a development board which contains the Inertial Sense µINS, µAHRS, or µIMU module. The EVB1.x functions as a breakout and communications board with the following features:
 

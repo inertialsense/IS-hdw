@@ -1,6 +1,6 @@
 # Rugged-1
 
-![Rugged-1](images/uINS_rugged_hand_close_up.png)
+![Rugged-1](Images/uINS_rugged_hand_close_up.png)
 
 The Inertial Sense Rugged-1 is a ruggedized carrier board and case for the Inertial Sense µINS, µAHRS, or µIMU module. The Rugged-1 has similar functions compared to the EVB-1, but in a more compact form factor with the following added features:
 
