@@ -6,11 +6,11 @@ The Inertial Sense uIG5 module combines the uINS and up to two ublox ZED-F9P mul
 
 ## Features
 
-- Tactical Grade IMU (w/ uINS-5)
-  - Gyro: 1.5 °/hr Bias Instability, 0.17 °/√hr ARW
-  - Accel: 20 μg Bias Instability, 0.04 m/s/√hr VRW
+- **Tactical Grade IMU (w/ uINS-5)**
+  - **Gyro: 1.5 °/hr Bias Instability, 0.17 °/√hr ARW**
+  - **Accel: 20 μg Bias Instability, 0.04 m/s/√hr VRW**
 
-- High Accuracy INS (w/ uINS-5):  0.05° Roll/Pitch, 0.08° Dynamic Heading
+- **High Accuracy INS (w/ uINS-5):  0.05° Roll/Pitch, 0.08° Dynamic Heading**
 - Up to 1KHz IMU and INS Output Data Rate
 - Dual onboard multi-band GNSS receivers. 
 - Dual U.FL antenna ports for GPS compassing.

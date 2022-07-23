@@ -1,40 +1,48 @@
 # uINS-5
 
-![uIG5](images/uINS_5.0_400w.jpg)
+![uIG5](Images/uINS_5.0_400w.jpg)
 
 The Inertial Sense uINS is a miniature calibrated dual external GNSS aided Inertial Navigation System (GNSS-INS) that provides attitude/orientation, velocity, position and robust heading not reliant on magnetometer input.  GNSS receivers are not included onboard.
 
 ## Features
 
-●    **Tactical Grade IMU**
+- **Tactical Grade IMU**
+  - **Gyro: 1.5 °/hr Bias Instability, 0.17 °/√hr ARW**
+  - **Accel: 20 µg Bias Instability, 0.04 m/s/√hr VRW**
+- **High Accuracy INS (w/ uINS-5):  0.05° Roll/Pitch, 0.08° Dynamic Heading** 
 
-●    **Gyro: 1.5 °/hr Bias Instability, 0.17 °/√hr ARW**
+- Surface Mount Reflowable (PCB Module)
 
-●    **Accel: 20 µg Bias Instability, 0.04 m/s/√hr VRW**
+- Up to 1KHz IMU and INS Output Data Rate
 
-●    **0.05° Roll/Pitch, 0.08° Dynamic Heading**
+- External GNSS Support (Multi-Band)
 
-●    **Surface Mount Reflowable (PCB Module)**
+- Attitude (Roll, Pitch, Yaw, Quaternions), Velocity, and Position UTC Time Synchronized
 
-●    Up to 1KHz IMU and INS Output Data Rate
+- Triple Redundant IMUs Calibrated for Bias, Scale Factor, Cross-axis Alignment, and G-sensitivity
 
-●    External GNSS Support (Multi-Band)
+- -40°C to 85°C Sensor Temperature Calibration
 
-●    Attitude (Roll, Pitch, Yaw, Quaternions), Velocity, and Position UTC Time Synchronized
+- Binary and NMEA ASCII Protocol
 
-●    Triple Redundant IMUs Calibrated for Bias, Scale Factor, Cross-axis Alignment, and G-sensitivity
+- Barometric Pressure and Humidity
 
-●    -40°C to 85°C Sensor Temperature Calibration
+- Strobe In/Out Data Sync (Camera Shutter Event) 
 
-●    Binary and NMEA ASCII Protocol
+- Fast Integration with SDK and Example Software
 
-●    Barometric Pressure and Humidity
+## Applications
 
-●    Strobe In/Out Data Sync (Camera Shutter Event) 
-
-●    Fast Integration with SDK and Example Software
-
-
+- Drone Navigation
+- Unmanned Vehicle Payloads
+- Ground and Aerial Survey
+- Automotive Navigation
+- Stabilized Platforms
+- Antenna and Camera Pointing
+- First Responder and Trackers
+- Health, Fitness, and Sport Monitors
+- Robotics and Ground Vehicles
+- Maritime
 
 ## LICENSE
 
