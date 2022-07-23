@@ -1,0 +1,227 @@
+IS-EVB r2.1.2 Project Notes   (- to do, + done, x skipped)
+
+________________________________________________________________________________
+
+Changes for r2.1.3 (future version)
++ Configure EVB-2 to support 2nd external GNSS and not CAN.  We can't support
+  both at the same time.  No load U5 and load R17 and R18.
+- Update uINS footprint (using either uINS-3.2 or uINS-4.0).  Pads are slightly
+  different.
+- Add weak pull-up resistor to U2B pin 6 (net M-G2/RXD1/TIOB1_INV) to prevent
+  floating input.
+
+________________________________________________________________________________
+
+Changes for r2.1.2
++ Fix the I2C line (SDA, SCL) reversal on EVB-2 SAME70.
+
+________________________________________________________________________________
+
+Changes for r2.1.1
++ Move TIOA1 (TC input) pin from GPIO1 to GPIO9 for measuring encoder velocity
+  on to GPIO9 (multi-tie).  We would not like to have to tie GPIO9 and GPIO3
+  together offboard the EVB-2 for wheel encoder input.  We share the QDEC and
+  TC input on the same line for angle and velocity measurement.
++ Consider adding a TC input to each of the QDEC channel A lines so all wheel
+  encoder inputs support velocity measurement.
++ Add second CAN transceiver from EVB E70 to H2 and remove CAN jumper.  We can
+  share H2 with uINS and EVB-E70.  Connect transceivers disable line to jumper
+  or EVB disable line.
++ Enlarge fiducials from 0.76mm to 1.0mm on both sides.
+
+________________________________________________________________________________
+
+Changes for r2.1.0
++ Dual purpose reset line to reset uINS and MCU using an RC filters.  One resets
+  quickly and the other follows after a delay.
++ Consider loading ICE debugger header for SAME70 MCU by default to support
+  developers.
++ Expose uINS data ready pin GPIO13 on H7.
++ Fix top layer copper pour for XBee regulator input that connects C20 pin 2 to
+  XBee regulator U7 pin 1.
++ Cut trace (disconnect) VUSB from ESD protection for both USB ports.  It's
+  causing voltage to appear on FET switches and partially enable.
++ Add EVB version number to PCB
++ Consider switching battery to Seiko MS621T for -40 to 85 C temp range.
+X Consider Seiko SC-20S for 32.768 KHz crystal. Is it better?
++ Add jumper selection of CAN tranceiver to uINS and EVB processor for CAN
+  support.
++ Consider exposing SAME70 chip erase (PB12) to SMT resistor pads to 3.3V.
++ Fix reversed uINS CAN Rx and Tx lines.  (Double check this).
+
+________________________________________________________________________________
+
+Changes for r2.0.1
+X Consider adding a battery management IC.
++ Add inverted bold labels for I/O headers.
++ Reverse the H1 power pin order so pin 1 is positive and pin 2 ground.
++ Add fiducials to help SMT machine alignment.
++ Invert and increase label size for I/O headers so they are easier to read.
++ Move to new button style
++ Fit shorter U.FL cables
++ Fix error that applied H1 voltage to the USB port in the power schematic
++ Remove or fix XBee USB power FET logic (Q3).
++ Remove R51 and connect with trace.
++ Fix RX line of XOR gate.
++ Add version label.
++ Update manufacturing docs for new U.FL cables (current cables are good)
+X Consider removing second micro USB connector and use a USB switch instead. We
+  could use Microchip USB2422 or similar. Extra space freed up can be used for
+  battery circuitry.
++ Jumper to G1_SDA and G2_SCL to CAN transciever to support future generation
+  of uINS which will have new processor with CAN stack. 
++ Consider consolidating the power input FET arrays
++ Move INS reset from common reset to MCU pin.
++ Move voltage sensing circuit to analog capable pin of MCU instead of on INS.
++ Connect QDEC2 and QDEC4 lines to H8 so we can support 3 quadrature encoders.
+x Add pull-up or pull-down resistors on serial Rx lines (or enable SAME70) for
+  TTL serial.  (Not necessary. Both SAME70 and SP330 already includes these.)
++ Move to 0.0033uF caps on SS/TR lines on voltage regulators to bring rise time
+  into spec.
+
+________________________________________________________________________________
+
+Changes for r2.0
++ parts: ATSAMS70, ATWINC3400-MR210UA122
++ WiFi/BT power down
++ Radio power down
++ XOR gate on GPIO serial port for hobby SBUS input.
++ Put chip erase on semi-convenient pads that can be shorted together.
++ SPI config enable pin on uINS should be controlled by MCU.
++ Consider adding dual LEDs for communications status for XBee and WINC.
++ Consider adding MOSFETs instead of two diodes to prioritize the USB power
+  source to elimiate forward voltage drop and power loss.
++ Ensure MCU USB OTG ID detect is connected.
++ Consider making buttons vertical.
++ LED: uINS com, XBee, Wifi, Log/status (tri color).
+X Add blue color line to communications LEDs IF there is room.
++ Move LED traces to closest PADs for easier routing.  Keep status/log on PWM.
++ Add series termination resistors inline with serial lines between Xbee and
+  MCU.
+X Do Xbee Tx/Rx pins go into tristate when powered down.  If not, we need a switch for
+  radio data lines to connector.
+X Do we need the RTS and CTS pins on the external radio header? If so, consider
+  moving back to XBee serial. (We don't)
++ Equalize SD card trace lengths.
++ Double check USB pair spacing and trace lengths.
++ Reconsider whether we should share a common reset pin between uINS and MCU.
+  (Jumper)
++ Run ground plane on L2 just below WiFi RTC trace.
++ Add SPI flash chip to uINS.  Use Micron# MT29F2G01ABAGDWB-IT:G TR
+  (Digikey# 557-1664-1-ND) Datasheet is here:
+  https://www.dropbox.com/s/32wbtqslqhy62je/m79a_2gb_3v_nand_spi.pdf?dl=0
+  Dropbox (Inertial Sense)\IS Shared\Datasheets Manuals\Memory - Flash\NAND\m79a_2gb_3v_nand_spi.pdf
+  Also added footprint for SOIC-8 memory chips
++ Add CAN jumpers to uINS (for future rev that has onboard CAN).  Use I2C pins
+  on uINS.
++ Double check pin directions for serial ports and flow control (CTS, RTS) is
+  correct.  Crossovers are needed.
+X Consider adding 2 more GPIO pins to SAME70 GPIO header to fill the last two
+  empty pins.
++ Check chip select for FLASH chip (added pullup)
++ Identify another RS232/422/485 chip. The one currently on the board only has
+  2000 pieces in stock at digikey, is out of stock everywhere else. (SP330)
++ Add decoupling caps between 3.3V and GND planes at high speed digital layer
+  transitions.
++ Consider connecting GPS timepulse pin to SAME70
+X Consider connecting USB ID pin to uINS through jumper.
++ Check ATSAME70 part number
++ Push button on strobe pin? (control via software)
++ Add ground fence and reinforce connector GND planes
++ Cutback copper pour around GPS and 900MHz RF connectors.
++ Larry thinks non-threaded standoffs would be more versatile.
++ Removed copper below ATWINC BLE WiFi device so we have the option to use the
+  integrated antenna module.
+x Consider adding a board cutout for the ATWINC.  There's room.
++ Add U.FL cable install instructions (use picture of the real thing!).
+
+________________________________________________________________________________
+
+Changes for r1.4
+X Headers for both serial ports (alternate LoRa radio and when USB is not
+  connected.
+X Power header/connector if USB is not used.
+X Add SD card.
+x Add SAMA5D27_SOM1 as embedded computer.
++ Ensure GPS timepulse on uINS pin 20 is tied to a header for access.
+X Reversing Molex pin order so pin 1 matches Molex labels.  (This causes
+  customers problems).
++ Add +3.3V and +5V (and extra grounds) on dev interface to power external
+  devices.
++ Add H122039-ND CABLE ASSEM UFL-UFL 35MM 0.81 to BOM.
+X Move connectors out of way of uINS pads so we can solder/desolder the uINS w/o
+  removing the connectors. (We don't want to support removing uINS from EVB)
+X Consider configuring the connector pinouts so that Tx and Rx are always the
+  same pins, that way we can swap connectors and still get connectivity.
+X Invert USB connector so USB-B label faces up.  Either get inverted style or
+  move to the bottom of the board.
+X Remove JTAG header and reset button.
+X Add CAN bus interface back.
++ Change JTAG (SWD) connector pinout to use the SAM port not AVR, on the
+  ATMELICE debugger.
++ Add solder paste back to uINS pads (so we can more quickly assemble the uINS).
+X Get uINS to SMD reflow capability.  Assemble all headers.
++ Remove kapton tape from under the uINS.
++ Remove voltage divider to FTDI reset pin.  This is no longer necessary since
+  we moved the FTDI VCC from +3.3V to USB.VBUS.  It used to be that this voltage
+  divider would hold the device in a tri-state mode if no USB connection was
+  present.  Now the device is entirely off.
++ Switch micro USB connector to through hole version to prevent pop-offs.
+  Amphenol# 10118194-0001LF or Molex# 1050170001
++ Add 2nd GPS antenna connector (GPS compassing support).
++ Add Zigbee U.FL and SMA connector
+X Espressif ESP32 Wifi/BT chip - move micro SD card to it?
++ Consider side actuating button:
+    https://www.digikey.com/product-detail/en/panasonic-electronic-components/
+    EVQ-P7J01P/P16767CT-ND/4429460
+x Switch SMA connectors to rugged INS style RF connectors to save space.
+X Switch back to AB USB connector so we can use the device as a master or a slave.
+X Consider including ethernet port (ESP32 has support for it). External PHY and code is available,
+  part number is LAN8720. Maybe better would be to use the ethernet if we are making a test bed
+  networking board.
++ Fix chip select on SPI bus
++ Consider adding Pi SPI bus (MOSI, MISO, CLK, CS) to GPIO header.
+X Consider adding wifi RP-SMA connector (not needed, range is pretty good)
+X Consider integrating power header pins into comm header
++ Ensure the USB interface on the INS works or consider adding switch to connect
+  Serial port on INS to Pi UART
++ Remove alignment pins for uINS
++ Add way to disable radio and plug in own radio
++ Removed uINS solder paste.
++ Consider moving Xbee radio Tx/Rx LEDs from FTDI to Tx/Rx lines using FETs.
+x Consider adding another USB switch to switch INS between slave USB on hub
+  and master on USB host post
+x Consider adding third FTDI chip to connect uINS to USB hub in case USB driver
+  falls through.
++ Decide to use 5mm or 6mm standoffs for compute module. (We chose 5mm).
++ Add RP-SMA part number and description for XBee part.
++ Consider adding notch for WiFi U.FL coax to route to 2nd GPS SMA connector...
++ Ensure all active parts have at least one 10nF decoupling cap.
++ Change board standoffs (non-Pi) to correct height.
++ Consider adding additional AP2331 to host USB port to prevent reset of RPi
+  when device plugged in.
++ Confirm that varistor is rated correctly.
+x Can we add Pi PWM to header to drive servo motors?  Would be nice to have 4
+  PWM.  Maybe we can double up I/O to get this.
++ Method to disable Xbee radio? SMD power jumper?
++ Add dedicated oscilator so we don't have to do anything special on the PI.
+  Consider using SiTime# SIT1533AI-H4-DCC-32.768E ($1, 2x1.2mm).
+  Added a different part from the WiFi shield
++ Ensure that the USB interface to the uINS still works even if Pi power supply
+  is not present.  (i.e. if H1 is not connected, the uINS and USB interface
+  should still work).  Supply 3.3V (INS.3V3) to FTDI devices as long as it
+  doesn't effect performance.
++ Fix H2 pin order - try to arrage so we get GPIO numbering in order.
+x Reconsider need for XBee full handshake UART, add jumper to INS GPIO for DTR
+  so it can program
++ Switching USB ESD protection to TI# TPD2EUSB30DRTR.
++ Reinforce SMD headers with copper pour to prefent them from tearing off.
+X Change XBee power switch to MCU control?
++ Check JTAG pinouts
+
+Items to test before fabrication:
+- Ability to reconfigure Xbee modems through uINS.  Do we need to connect DTR for this?
+
+
+________________________________________________________________________________
+
