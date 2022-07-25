@@ -33,7 +33,7 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
 IsVirtualBomDocumentRemoved=0
-OutputPath=Project Outputs for uIG5_r0
+OutputPath=
 LogFolderPath=Logs
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -307,7 +307,7 @@ PageDef.mmMarginTop=6350
 PageDef.mmMarginBottom=6350
 
 [Generic_EDE]
-OutputDir=Project Outputs for uIG5_r0
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs

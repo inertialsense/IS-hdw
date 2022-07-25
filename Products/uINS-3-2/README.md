@@ -6,6 +6,7 @@ The Inertial Sense uINS is a miniature calibrated dual GPS aided Inertial Naviga
 
 ## Features
 
+- Accuracy INS (w/ uINS-5):  0.1° Roll/Pitch, 0.3° Dynamic Heading
 - Up to 1KHz IMU and INS Output Data Rate
 - Small Form Factor:  16.3 x 12.6 x 4.6 mm
 - Light Weight:  1.3 g

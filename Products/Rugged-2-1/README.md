@@ -9,7 +9,7 @@ The Inertial Sense Rugged-2 is a ruggedized carrier board and case for the Inert
 - **Tactical Grade IMU (w/ uINS-5)**
   - **Gyro: 1.5 °/hr Bias Instability, 0.17 °/√hr ARW**
   - **Accel: 20 μg Bias Instability, 0.04 m/s/√hr VRW**
-- **High Accuracy INS (w/ uINS-5):  0.05° Roll/Pitch, 0.08° Dynamic Heading**
+- **High Accuracy INS (w/ uINS-5):  0.03° Roll/Pitch, 0.1° Dynamic Heading**
 - Up to 1KHz IMU and INS Output Data Rate
 - Dual onboard multi-band (L1/L2/E5) GNSS receivers
 - Dual MMCX antenna ports for GPS compassing
