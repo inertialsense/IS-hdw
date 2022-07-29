@@ -43,7 +43,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=IS-uIG5-r0.0.2
+CurrentVariant=IS-uIG5-r0.0.3
 
 [Preferences]
 PrefsVaultGUID=
@@ -204,7 +204,7 @@ DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueID=A5428F82-C62F-4E41-B198-A7F940D0888A
-Description=IS-uIG5-r0.0.2
+Description=IS-uIG5-r0.0.3
 AllowFabrication=0
 ParameterCount=0
 VariationCount=2
@@ -1325,7 +1325,7 @@ ComponentSymbolReference9=VBUS053
 ComponentUpdate9=1
 ComponentIsDeviceSheet9=0
 ComponentLibIdentifierKind10=Library Name And Type
-ComponentLibraryIdentifier10=InertialSense.SchLib
+ComponentLibraryIdentifier10=IS-uINS-5.SchLib
 ComponentDesignItemID10=IS-uINS-5.0
 ComponentSymbolReference10=IS-uINS-5.0
 ComponentUpdate10=1
