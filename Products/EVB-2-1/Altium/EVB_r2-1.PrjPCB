@@ -493,36 +493,36 @@ Path=..\..\Resources\Library_DB_Component_Files\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=AddressLine1
-Value=384 S 400 W, Suite 125
+Name=ProjectTitle
+Value=Evaluation Board
 
 [Parameter2]
-Name=AddressLine2
-Value=Lindon, UT 84042
-
-[Parameter3]
-Name=AddressLine3
-Value=info@interialsense.com
-
-[Parameter4]
-Name=AddressLine4
-Value=
-
-[Parameter5]
-Name=Company
-Value=Inertial Sense, Inc.
-
-[Parameter6]
-Name=PcbPartNumber
-Value=IS-EVB-r2.1.2
-
-[Parameter7]
 Name=PcbRevision
 Value=2.1.2
 
+[Parameter3]
+Name=PcbPartNumber
+Value=IS-EVB-r2.1.2
+
+[Parameter4]
+Name=Company
+Value=Inertial Sense, Inc.
+
+[Parameter5]
+Name=AddressLine4
+Value= 
+
+[Parameter6]
+Name=AddressLine3
+Value=info@interialsense.com
+
+[Parameter7]
+Name=AddressLine2
+Value=Provo, UT 84606
+
 [Parameter8]
-Name=ProjectTitle
-Value=Evaluation Board
+Name=AddressLine1
+Value=3000 S. Sierra Vista Way
 
 [Configuration1]
 Name=Default Configuration
@@ -1168,36 +1168,6 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Ansoft Neutral
-OutputName12=Ansoft Neutral (AutoPCB)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=HyperLynx
-OutputName13=HyperLynx (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=Orcad v7 Capture Design
-OutputName14=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD ASCII
-OutputName15=P-CAD ASCII (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD V16 Schematic Design
-OutputName16=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs

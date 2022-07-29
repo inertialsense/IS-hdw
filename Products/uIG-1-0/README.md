@@ -1,8 +1,8 @@
-# uIG5
+# uIG-1
 
-![uIG5](Images/uIG5_top.png)
+![uIG-1](Images/uIG-1_top.png)
 
-The Inertial Sense uIG5 module combines the uINS and up to two ublox ZED-F9P multi-band GNSS receivers in a compact surface mount modular form factor. 
+The Inertial Sense uIG module combines the uINS and up to two ublox ZED-F9P multi-band GNSS receivers in a compact surface mount modular form factor. 
 
 ## Features
 
