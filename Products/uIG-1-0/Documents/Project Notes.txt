@@ -1,12 +1,14 @@
-IS-uIG5-r0.0.2 Project Notes   (- to do, + done, x skipped)
+IS-uIG-r1.0.3 Project Notes   (- to do, + done, x skipped)
 
 
 ________________________________________________________________________________
 
-Changes for r0.0.2
+Changes for r1.0.2
 + Remove ground via that shorts GPS2 Tx line.
 + Fix incorrect header part number.
 + Move USB pads to prevent USB connector from shorting to USB castellated pads.
++ Switch GPS_RESET to G12/SWO/XSCL so that we can make G13/DRDY/XSDA (SPI data
+  ready) available.
 
 ________________________________________________________________________________
 
