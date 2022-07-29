@@ -1,6 +1,6 @@
 # uINS-5
 
-![uIG5](Images/uINS_5.0_400w.jpg)
+![uINS-5](Images/uINS_5.0_400w.jpg)
 
 The Inertial Sense uINS is a miniature calibrated dual external GNSS aided Inertial Navigation System (GNSS-INS) that provides attitude/orientation, velocity, position and robust heading not reliant on magnetometer input.  GNSS receivers are not included onboard.
 

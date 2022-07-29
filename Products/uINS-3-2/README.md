@@ -1,6 +1,6 @@
 # uINS-3
 
-![uIG5](Images/uins-3-400w.jpg)
+![uINS-3](Images/uins-3-400w.jpg)
 
 The Inertial Sense uINS is a miniature calibrated dual GPS aided Inertial Navigation System (GPS-INS) that provides attitude/orientation, velocity, position and robust heading not reliant on magnetometer input.
 
