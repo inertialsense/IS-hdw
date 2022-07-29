@@ -1,4 +1,3 @@
-*.Zip
 *.SchDocPreview
 *.PCBDOCPreview
 *.PCB3DLib
@@ -8,7 +7,6 @@
 *.htm
 *.html
 *.drc
-*.step
 *.LOG
 Logs/
 Output/
