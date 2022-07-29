@@ -117,40 +117,6 @@ GenerateClassCluster=0
 DocumentUniqueId=VCXWPYYC
 
 [Document5]
-DocumentPath=..\..\..\PCB_Libraries\Altium\IS-uINS-5.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=BGTMVLAI
-
-[Document6]
-DocumentPath=..\..\..\PCB_Libraries\Altium\IS-uINS-5.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HJLOUIFJ
-
-[Document7]
 DocumentPath=..\Documents\Project Notes.txt
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -167,7 +133,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document6]
 DocumentPath=Source Files\uIG-1.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -184,7 +150,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
+[Document7]
 DocumentPath=Source Files\uIG-1.PCBDOC
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -201,7 +167,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VXMDJKGA
 
-[Document10]
+[Document8]
 DocumentPath=..\..\..\..\Libraries\Sensors.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -218,7 +184,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ACYGODJL
 
-[Document11]
+[Document9]
 DocumentPath=..\..\..\..\Libraries\Sensors.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -235,9 +201,43 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XHBUPFAT
 
+[Document10]
+DocumentPath=..\..\uINS-5-0\PCB_Library\Altium\IS-uINS-5.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document11]
+DocumentPath=..\..\uINS-5-0\PCB_Library\Altium\IS-uINS-5.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HJLOUIFJ
+
 [ProjectVariant1]
 UniqueID=A5428F82-C62F-4E41-B198-A7F940D0888A
-Description=IS-uIG-r1.0.3.0-G2
+Description=IS-uIG-r1.0.3.1-G2
 AllowFabrication=0
 ParameterCount=0
 VariationCount=2

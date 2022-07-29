@@ -1,0 +1,12 @@
+Export log for : IS-uINS-5_PCB.Rep
+AddingPadStyle (Default)
+AddingPadStyle EF67X31TOP1
+AddingPadStyle EF59X59TOP1
+Adding ViaStyle (Default)
+Adding TextStyle (Default)
+Adding TextStyle T:H40W6
+Adding PatternDef IS-uINS-5.0
+      Warning: Unexpected ComponentBody Object Found On Layer Mechanical1.
+Adding CompDef IS-uINS-5.0
+ 
+EndLog

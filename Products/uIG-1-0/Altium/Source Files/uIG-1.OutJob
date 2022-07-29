@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=uIG1.OutJob
+Name=uIG-1.OutJob
 Description=
 TargetOutputMedium=Schematic
 VariantName=IS-uIG-r1.0.3.0-G2
@@ -858,11 +858,11 @@ FFmpegPixelFormat7=0
 FFmpegQuality7=80
 WmvVideoCodecName7=Windows Media Video V7
 WmvQuality7=100
-OutputFilePath8=C:\_IS\hdw\altium\IS-hdw\Products\uIG-1-0\Altium\Manufacturing\..\Schematic\uIG5_schematic.PDF
+OutputFilePath8=C:\_IS\hdw\altium\IS-hdw\Products\uIG-1-0\Altium\Manufacturing\..\Schematic\uIG-1_schematic.PDF
 ReleaseManaged8=0
 OutputBasePath8=Manufacturing\
-OutputPathMedia8=..\Schematic
-OutputPathMediaValue8=..\Schematic
+OutputPathMedia8=..\..\Schematic
+OutputPathMediaValue8=..\..\Schematic
 OutputPathOutputer8=[Output Type]
 OutputPathOutputerPrefix8=
 OutputPathOutputerValue8=
@@ -915,6 +915,6 @@ OpenIPCOutput6=0
 EnableReload6=0
 RelativeOutputPath7=C:\_IS\hdw\IS-hdw\altium\Projects\INS_AHRS\EVB_r1-2\Manufacturing\uINS.wmv
 OpenOutputs7=1
-RelativeOutputPath8=C:\_IS\hdw\altium\IS-hdw\Products\uIG-1-0\Altium\Manufacturing\..\Schematic\uIG5_schematic.PDF
+RelativeOutputPath8=C:\_IS\hdw\altium\IS-hdw\Products\uIG-1-0\Altium\Manufacturing\..\Schematic\uIG-1_schematic.PDF
 OpenOutputs8=0
 
