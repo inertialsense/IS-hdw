@@ -4,8 +4,7 @@
 
 The Inertial Sense hardware design files are made available to facilitate product hardware development and integration.
 
- - **PCB Libraries** - Schematic and layout files for printed circuit board designs.
- - **Products** - 3D models and resources for the uINS, Rugged, uIG5, EVB, and related products useful for CAD and circuit board designs.  Example PCB projects including the uIG5 and EVB-2. 
+ - **Products** - 3D models and resources for the uINS, Rugged, uIG, EVB, and related products useful for printed circuit board CAD and circuit board designs.  Example PCB projects including the uIG5 and EVB-2.  Schematic and layout files for printed circuit board designs. 
 
 ------
 
