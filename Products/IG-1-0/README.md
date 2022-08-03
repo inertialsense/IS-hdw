@@ -1,8 +1,8 @@
-# uIG-1
+# IG-1
 
-![uIG-1](Images/uIG-1.0_top.png)
+![IG-1](Images/IG-1.0_top.png)
 
-The Inertial Sense uIG module combines the IMX and up to two ublox ZED-F9P multi-band GNSS receivers in a compact surface mount modular form factor. 
+The InertialSense IG module combines the IMX-5 and up to two ublox ZED-F9P multi-band GNSS receivers in a compact surface mount modular form factor. 
 
 ## Features
 

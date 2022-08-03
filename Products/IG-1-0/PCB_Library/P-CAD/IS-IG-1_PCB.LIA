@@ -1,10 +1,10 @@
-ACCEL_ASCII "C:\_IS\hdw\altium\IS-hdw\Products\uIG-1-0\PCB_Library\P-CAD\IS-uIG-1_PCB.LIA"
+ACCEL_ASCII "C:\_IS\hdw\altium\IS-hdw\Products\IG-1-0\PCB_Library\P-CAD\IS-IG-1_PCB.LIA"
 
 (asciiHeader
   (asciiVersion 3 0)
   (timeStamp 2022 7 30 0 48 27)
   (program "Design Explorer 99 SE" "6.1.0")
-  (copyright "Copyright ® 2002 Altium Ltd")
+  (copyright "Copyright ï¿½ 2002 Altium Ltd")
   (headerString "")
   (fileUnits Mil)
   (guidString "{00000000-0000-0000-0000-000000000000}")

@@ -142,8 +142,8 @@ ACCEL_ASCII ""
     (textStyleAllowTType True)
     (textStyleDisplayTType True)
   )
-  (symbolDef "uIG-1.0_1_N"
-    (originalName "uIG-1.0_1_N")
+  (symbolDef "IG-1.0_1_N"
+    (originalName "IG-1.0_1_N")
     (pin (pinNum 1)  (pt 0 -300) (rotation 180.0) (isFlipped False) (pinLength 200)
       (pinDisplay (dispPinDes True) (dispPinName True) )
       (pinDes    (text  (pt -100 -300) "1" (textStyleRef "(PinStyle)") (rotation 180.0) (justify UpperCenter) (extent 0.0 0.0) )
@@ -370,7 +370,7 @@ ACCEL_ASCII ""
     (compPin "23" (pinName "GND") (partNum 1) (symPinNum 24) (gateEq 0) (pinEq 0) (pinType Passive) )
     (compPin "0" (pinName "GND") (partNum 1) (symPinNum 25) (gateEq 0) (pinEq 0) (pinType Passive) )
     (compPin "20" (pinName "G13/DRDY") (partNum 1) (symPinNum 26) (gateEq 0) (pinEq 0) (pinType Passive) )
-    (attachedSymbol (partNum 1) (altType Normal) (symbolName "uIG-1.0_1_N") )
+    (attachedSymbol (partNum 1) (altType Normal) (symbolName "IG-1.0_1_N") )
     (attachedPattern (patternNum 1) (patternName "UIG-1.0_LGA")
       (numPads 26)
       (padPinMap
