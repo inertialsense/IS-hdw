@@ -2,12 +2,12 @@
 
 ![uINS-5](Images/uINS_5.0_400w.jpg)
 
-The Inertial Sense uINS is a miniature calibrated dual external GNSS aided Inertial Navigation System (GNSS-INS) that provides attitude/orientation, velocity, position and robust heading not reliant on magnetometer input.  GNSS receivers are not included onboard.
+The Inertial Sense µIMU is a miniature calibrated Inertial Measurement Unit (IMU), Attitude Heading Reference System (AHRS), and GNSS aided Inertial Navigation System (GNSS-INS) with sensor fusion to estimate roll, pitch, heading, velocity, and position.  GNSS receivers are not included onboard the µIMU module.
 
 ## Features
 
 - **Tactical Grade IMU**
-  - **Gyro: 1.5 °/hr Bias Instability, 0.17 °/√hr ARW**
+  - **Gyro: 2.0 °/hr Bias Instability, 0.2 °/√hr ARW**
   - **Accel: 20 µg Bias Instability, 0.04 m/s/√hr VRW**
 - **High Accuracy INS (w/ uINS-5):  0.03° Roll/Pitch, 0.1° Dynamic Heading** 
 - Surface Mount Reflowable (PCB Module)
