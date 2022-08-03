@@ -142,8 +142,8 @@ ACCEL_ASCII ""
     (textStyleAllowTType True)
     (textStyleDisplayTType True)
   )
-  (symbolDef "IS-uINS-5.0_1_N"
-    (originalName "IS-uINS-5.0_1_N")
+  (symbolDef "IS-IMX-5.0_1_N"
+    (originalName "IS-IMX-5.0_1_N")
     (pin (pinNum 1)  (pt 1800 -1400) (rotation 0.0) (isFlipped False) (pinLength 200)
       (pinDisplay (dispPinDes True) (dispPinName True) )
       (pinDes    (text  (pt 1900 -1400) "1" (textStyleRef "(PinStyle)") (justify LowerCenter) (extent 0.0 0.0) )
@@ -327,11 +327,11 @@ ACCEL_ASCII ""
     (attr "Type" ""  (pt -220 0) (isVisible False) (justify LowerLeft) (textStyleRef "(PartStyle)") )
     (attr "Manufacturer" "Inertial Sense"  (pt 0.0 0.0) (isVisible False) (textStyleRef "(Default)") )
     (attr "Supplier 1" "Inertial Sense"  (pt 0.0 0.0) (isVisible False) (textStyleRef "(Default)") )
-    (attr "Supplier Part Numb0C" "IS-uINS-5"  (pt 0.0 0.0) (isVisible False) (textStyleRef "(Default)") )
-    (attr "Manufacturer Part D3" "IS-uINS-5"  (pt 0.0 0.0) (isVisible False) (textStyleRef "(Default)") )
+    (attr "Supplier Part Numb0C" "IS-IMX-5"  (pt 0.0 0.0) (isVisible False) (textStyleRef "(Default)") )
+    (attr "Manufacturer Part D3" "IS-IMX-5"  (pt 0.0 0.0) (isVisible False) (textStyleRef "(Default)") )
   )
-  (compDef "IS-UINS-5.0"
-    (originalName "IS-UINS-5.0")
+  (compDef "IS-IMX-5.0"
+    (originalName "IS-IMX-5.0")
     (compHeader
       (sourceLibrary "")
       (compType Normal)
@@ -366,8 +366,8 @@ ACCEL_ASCII ""
     (compPin "0" (pinName "GND") (partNum 1) (symPinNum 23) (gateEq 0) (pinEq 0) (pinType Power) )
     (compPin "23" (pinName "NC") (partNum 1) (symPinNum 24) (gateEq 0) (pinEq 0) (pinType Power) )
     (compPin "24" (pinName "NC") (partNum 1) (symPinNum 25) (gateEq 0) (pinEq 0) (pinType Power) )
-    (attachedSymbol (partNum 1) (altType Normal) (symbolName "IS-uINS-5.0_1_N") )
-    (attachedPattern (patternNum 1) (patternName "IS-UINS-5.0")
+    (attachedSymbol (partNum 1) (altType Normal) (symbolName "IS-IMX-5.0_1_N") )
+    (attachedPattern (patternNum 1) (patternName "IS-IMX-5.0")
       (numPads 25)
       (padPinMap
         (padNum  1) (compPinRef "1")

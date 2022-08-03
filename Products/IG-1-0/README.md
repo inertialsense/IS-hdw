@@ -2,14 +2,14 @@
 
 ![uIG-1](Images/uIG-1.0_top.png)
 
-The Inertial Sense uIG module combines the uINS and up to two ublox ZED-F9P multi-band GNSS receivers in a compact surface mount modular form factor. 
+The Inertial Sense uIG module combines the IMX and up to two ublox ZED-F9P multi-band GNSS receivers in a compact surface mount modular form factor. 
 
 ## Features
 
-- **Tactical Grade IMU (w/ uINS-5)**
+- **Tactical Grade IMU (w/ IMX-5)**
   - **Gyro: 2.0 °/hr Bias Instability, 0.2 °/√hr ARW**
   - **Accel: 20 μg Bias Instability, 0.04 m/s/√hr VRW**
-- **High Accuracy INS (w/ uINS-5):  0.03° Roll/Pitch, 0.1° Dynamic Heading**
+- **High Accuracy INS (w/ IMX-5):  0.03° Roll/Pitch, 0.1° Dynamic Heading**
 - Up to 1KHz IMU and INS Output Data Rate
 - Dual onboard multi-band (L1/L2/E5) GNSS receivers
 - Dual U.FL antenna ports for GPS compassing
@@ -17,7 +17,7 @@ The Inertial Sense uIG module combines the uINS and up to two ublox ZED-F9P mult
 - Light weight:  <15g
 - Low power consumption:  <1500mW
 - Surface Mount Reflowable
-- Breakout header and micro USB interface to the uINS
+- Breakout header and micro USB interface to the IMX
 - UART x3, SPI interfaces
 - Onboard voltage regulation for 3.3V - 17V input
 

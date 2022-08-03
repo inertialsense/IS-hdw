@@ -13,11 +13,11 @@ The EVB-2 PCB assembly design files are provided in Altium Designer format.
 - Onboard logging to micro SD card.
 - Companion Microchip SAME70 processor that serves as a communication bridge between the µINS, µAHRS, or µIMU and all other interfaces.
 
-- **Tactical Grade IMU (w/ uINS-5)**
+- **Tactical Grade IMU (w/ IMU-5)**
   - **Gyro: 2.0 °/hr Bias Instability, 0.2 °/√hr ARW**
   - **Accel: 20 μg Bias Instability, 0.04 m/s/√hr VRW**
 
-- **High Accuracy INS (w/ uINS-5):  0.03° Roll/Pitch, 0.1° Dynamic Heading**
+- **High Accuracy INS (w/ IMU-5):  0.03° Roll/Pitch, 0.1° Dynamic Heading**
 - Up to 1KHz IMU and INS Output Data Rate
 - Dual onboard GNSS receivers
 - Dual SMA antenna ports for GPS compassing
@@ -56,7 +56,7 @@ Use these Hardware Design files as you wish.  Inertial Sense is not liable for a
 + Move TIOA1 (TC input) pin from GPIO1 to GPIO9 for measuring encoder velocity on to GPIO9 (multi-tie).  We would not like to have to tie GPIO9 and GPIO3 together offboard the EVB-2 for wheel encoder input.  We share the QDEC and TC input on the same line for angle and velocity measurement.
 
 + Consider adding a TC input to each of the QDEC channel A lines so all wheel encoder inputs support velocity measurement.
-+ Add second CAN transceiver from EVB E70 to H2 and remove CAN jumper.  We can share H2 with uINS and EVB-E70.  Connect transceivers disable line to jumper or EVB disable line.
++ Add second CAN transceiver from EVB E70 to H2 and remove CAN jumper.  We can share H2 with IMX and EVB-E70.  Connect transceivers disable line to jumper or EVB disable line.
 + Enlarge fiducials from 0.76mm to 1.0mm on both sides.
 + Fix the I2C line (SDA, SCL) reversal on EVB-2 SAME70.
 
@@ -64,21 +64,21 @@ ________________________________________________________________________________
 
 ### r2.1.0
 
-+ Dual purpose reset line to reset uINS and MCU using an RC filters.  One resets
++ Dual purpose reset line to reset IMX and MCU using an RC filters.  One resets
   quickly and the other follows after a delay.
 + Consider loading ICE debugger header for SAME70 MCU by default to support
   developers.
-+ Expose uINS data ready pin GPIO13 on H7.
++ Expose IMX data ready pin GPIO13 on H7.
 + Fix top layer copper pour for XBee regulator input that connects C20 pin 2 to
   XBee regulator U7 pin 1.
 + Cut trace (disconnect) VUSB from ESD protection for both USB ports.  It's
   causing voltage to appear on FET switches and partially enable.
 + Add EVB version number to PCB
 + Consider switching battery to Seiko MS621T for -40 to 85 C temp range.
-+ Add jumper selection of CAN transceiver to uINS and EVB processor for CAN
++ Add jumper selection of CAN transceiver to IMX and EVB processor for CAN
   support.
 + Consider exposing SAME70 chip erase (PB12) to SMT resistor pads to 3.3V.
-+ Fix reversed uINS CAN Rx and Tx lines.  (Double check this).
++ Fix reversed IMX CAN Rx and Tx lines.  (Double check this).
 
 ________________________________________________________________________________
 
@@ -97,7 +97,7 @@ ________________________________________________________________________________
 + Add version label.
 + Update manufacturing docs for new U.FL cables (current cables are good)
 + Jumper to G1_SDA and G2_SCL to CAN transceiver to support future generation
-  of uINS which will have new processor with CAN stack. 
+  of IMX which will have new processor with CAN stack. 
 + Consider consolidating the power input FET arrays
 + Move INS reset from common reset to MCU pin.
 + Move voltage sensing circuit to analog capable pin of MCU instead of on INS.

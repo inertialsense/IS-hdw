@@ -5,7 +5,7 @@ ________________________________________________________________________________
 Changes for r2.1.3 (future version)
 + Configure EVB-2 to support 2nd external GNSS and not CAN.  We can't support
   both at the same time.  No load U5 and load R17 and R18.
-- Update uINS footprint (using either uINS-3.2 or uINS-4.0).  Pads are slightly
+- Update IMX footprint (using either uINS-3.2 or uINS-4.0).  Pads are slightly
   different.
 - Add weak pull-up resistor to U2B pin 6 (net M-G2/RXD1/TIOB1_INV) to prevent
   floating input.

@@ -1,6 +1,6 @@
-# uINS-5
+# IMX-5
 
-![uINS-5](Images/uINS_5.0_400w.jpg)
+![IMX-5](Images/IMX_5.0_400w.jpg)
 
 The Inertial Sense µIMU is a miniature calibrated Inertial Measurement Unit (IMU), Attitude Heading Reference System (AHRS), and GNSS aided Inertial Navigation System (GNSS-INS) with sensor fusion to estimate roll, pitch, heading, velocity, and position.  GNSS receivers are not included onboard the µIMU module.
 
@@ -9,7 +9,7 @@ The Inertial Sense µIMU is a miniature calibrated Inertial Measurement Unit (IM
 - **Tactical Grade IMU**
   - **Gyro: 2.0 °/hr Bias Instability, 0.2 °/√hr ARW**
   - **Accel: 20 µg Bias Instability, 0.04 m/s/√hr VRW**
-- **High Accuracy INS (w/ uINS-5):  0.03° Roll/Pitch, 0.1° Dynamic Heading** 
+- **High Accuracy INS (w/ IMX-5):  0.03° Roll/Pitch, 0.1° Dynamic Heading** 
 - Surface Mount Reflowable (PCB Module)
 - Up to 1KHz IMU and INS Output Data Rate
 - Small Form Factor:  15.6 x 12.5 x 2.9 mm

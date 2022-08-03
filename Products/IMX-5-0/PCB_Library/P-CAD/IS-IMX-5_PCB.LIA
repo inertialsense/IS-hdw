@@ -1,10 +1,10 @@
-ACCEL_ASCII "C:\_IS\hdw\altium\IS-hdw\Products\uINS-5-0\PCB_Library\P-CAD\IS-uINS-5_PCB.LIA"
+ACCEL_ASCII "C:\_IS\hdw\altium\IS-hdw\Products\IMX-5-0\PCB_Library\P-CAD\IS-IMX-5_PCB.LIA"
 
 (asciiHeader
   (asciiVersion 3 0)
   (timeStamp 2022 7 29 10 42 35)
   (program "Design Explorer 99 SE" "6.1.0")
-  (copyright "Copyright ® 2002 Altium Ltd")
+  (copyright "Copyright ï¿½ 2002 Altium Ltd")
   (headerString "")
   (fileUnits Mil)
   (guidString "{00000000-0000-0000-0000-000000000000}")
@@ -97,8 +97,8 @@ ACCEL_ASCII "C:\_IS\hdw\altium\IS-hdw\Products\uINS-5-0\PCB_Library\P-CAD\IS-uIN
     (textStyleAllowTType False)
     (textStyleDisplayTType False)
   )
-  (patternDefExtended "IS-UINS-5.0_1"
-  (originalName "IS-UINS-5.0")
+  (patternDefExtended "IS-IMX-5.0_1"
+  (originalName "IS-IMX-5.0")
     (patternGraphicsNameRef "Primary")
 
     (patternGraphicsDef
@@ -378,8 +378,8 @@ ACCEL_ASCII "C:\_IS\hdw\altium\IS-hdw\Products\uINS-5-0\PCB_Library\P-CAD\IS-uIN
       )
     )
   )
-  (compDef "IS-UINS-5.0_1"
-    (originalName "IS-UINS-5.0")
+  (compDef "IS-IMX-5.0_1"
+    (originalName "IS-IMX-5.0")
     (compHeader
       (sourceLibrary "")
       (numPins 36)
@@ -423,7 +423,7 @@ ACCEL_ASCII "C:\_IS\hdw\altium\IS-hdw\Products\uINS-5-0\PCB_Library\P-CAD\IS-uIN
     (compPin "24_2" (partNum 1) (symPinNum 1) (gateEq 0) (pinEq 0) )
     (compPin "24_3" (partNum 1) (symPinNum 1) (gateEq 0) (pinEq 0) )
     (compPin "24_4" (partNum 1) (symPinNum 1) (gateEq 0) (pinEq 0) )
-    (attachedPattern (patternNum 1) (patternName "IS-UINS-5.0")
+    (attachedPattern (patternNum 1) (patternName "IS-IMX-5.0")
       (numPads 36)
       (padPinMap
         (padNum 1) (compPinRef "0")
