@@ -250,38 +250,34 @@ Path=..\..\Resources\Library_DB_Component_Files\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=
-Value=
-
-[Parameter2]
 Name=ProjectTitle
 Value=IMX w/ RTK-GNSS Module
 
-[Parameter3]
+[Parameter2]
 Name=PcbRevision
 Value=0
 
-[Parameter4]
+[Parameter3]
 Name=PcbPartNumber
 Value=IS-IG-r1.0
 
-[Parameter5]
+[Parameter4]
 Name=Company
 Value=Inertial Sense, Inc.
 
-[Parameter6]
+[Parameter5]
 Name=AddressLine4
 Value=
 
-[Parameter7]
+[Parameter6]
 Name=AddressLine3
 Value=info@interialsense.com
 
-[Parameter8]
+[Parameter7]
 Name=AddressLine2
 Value=Provo, UT 84606
 
-[Parameter9]
+[Parameter8]
 Name=AddressLine1
 Value=3000 S. Sierra Vista Way
 
