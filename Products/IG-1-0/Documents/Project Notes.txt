@@ -3,6 +3,12 @@ IS-IG-r1.0.3 Project Notes   (- to do, + done, x skipped)
 
 ________________________________________________________________________________
 
+Changes for r1.0.3
+- Enable GPS PPS input on IMX-5 pin 20 (GPS.TIMEPULSE).  Connect GPS1.TIMEPULSE
+  pin to this pin instead of IMX-5 G8 and connect to IG-1 pin 14 (GPS.TIMEPULSE)
+
+________________________________________________________________________________
+
 Changes for r1.0.2
 + Remove ground via that shorts GPS2 Tx line.
 + Fix incorrect header part number.
