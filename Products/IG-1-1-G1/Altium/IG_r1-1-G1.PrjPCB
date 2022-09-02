@@ -235,6 +235,40 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document12]
+DocumentPath=..\..\..\..\Libraries\General.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document13]
+DocumentPath=..\..\..\..\Libraries\General.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MLYEYRDE
+
 [ProjectVariant1]
 UniqueID=A5428F82-C62F-4E41-B198-A7F940D0888A
 Description=IS-IG-r1.1.1.0-G1
@@ -251,36 +285,36 @@ Path=..\..\Resources\Library_DB_Component_Files\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=AddressLine1
-Value=3000 S. Sierra Vista Way
+Name=ProjectTitle
+Value=IMX w/ RTK-GNSS Module
 
 [Parameter2]
-Name=AddressLine2
-Value=Provo, UT 84606
+Name=PcbRevision
+Value=1.1.1
 
 [Parameter3]
-Name=AddressLine3
-Value=info@interialsense.com
+Name=PcbPartNumber
+Value=IS-IG-r1.1-G1
 
 [Parameter4]
-Name=AddressLine4
-Value=
-
-[Parameter5]
 Name=Company
 Value=Inertial Sense, Inc.
 
+[Parameter5]
+Name=AddressLine4
+Value=
+
 [Parameter6]
-Name=PcbPartNumber
-Value=IS-IG-r1.1
+Name=AddressLine3
+Value=info@interialsense.com
 
 [Parameter7]
-Name=PcbRevision
-Value=1.1.0
+Name=AddressLine2
+Value=Provo, UT 84606
 
 [Parameter8]
-Name=ProjectTitle
-Value=IMX w/ RTK-GNSS Module
+Name=AddressLine1
+Value=3000 S. Sierra Vista Way
 
 [Configuration1]
 Name=Default Configuration

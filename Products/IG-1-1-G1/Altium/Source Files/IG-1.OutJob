@@ -17,8 +17,8 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=IG-1.OutJob
 Description=
-TargetOutputMedium=PCB - PDFs
-VariantName=IS-IG-r1.1.1.0-G2
+TargetOutputMedium=Schematic
+VariantName=IS-IG-r1.1.1.0-G1
 VariantScope=1
 CurrentConfigurationName=
 TargetPrinter=Virtual Printer
@@ -234,7 +234,7 @@ OutputName8=Final Artwork Prints
 OutputCategory8=Fabrication
 OutputDocumentPath8=
 OutputVariantName8=
-OutputEnabled8=1
+OutputEnabled8=0
 OutputEnabled8_OutputMedium1=0
 OutputEnabled8_OutputMedium2=1
 OutputEnabled8_OutputMedium3=0
@@ -549,7 +549,7 @@ OutputName22=Dimensions and Layer Stack Up
 OutputCategory22=Fabrication
 OutputDocumentPath22=
 OutputVariantName22=
-OutputEnabled22=1
+OutputEnabled22=0
 OutputEnabled22_OutputMedium1=0
 OutputEnabled22_OutputMedium2=2
 OutputEnabled22_OutputMedium3=0
@@ -644,7 +644,7 @@ OutputEnabled25_OutputMedium6=0
 OutputEnabled25_OutputMedium7=0
 OutputEnabled25_OutputMedium8=0
 OutputDefault25=0
-PageOptions25=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=4.29|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions25=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=6.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration25_Name1=OutputConfigurationParameter1
 Configuration25_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=13503944|ViewY=4921265|LookAtX=31801972|LookAtY=17010628|LookAtZ=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=0.000111004607246594|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ViewConfig=RECORD\3Board\2CFGALL.CONFIGURATIONKIND\33\2CFGALL.CONFIGURATIONDESC\3Enter%20description%20of%20new%20view%20configuration\2CFG3D.POSITIVETOPSOLDERMASK\3TRUE\2CFG3D.POSITIVEBOTTOMSOLDERMASK\3TRUE\2CFG3D.SHOWCOMPONENTBODIES\3SYSTEM\2CFG3D.SHOWCOMPONENTSTEPMODELS\3SYSTEM\2CFG3D.COMPONENTMODELPREFERENCE\30\2CFG3D.SHOWCOMPONENTSNAPMARKERS\3TRUE\2CFG3D.SHOWCOMPONENTAXES\3TRUE\2CFG3D.SHOWBOARDCORE\3TRUE\2CFG3D.SHOWBOARDPREPREG\3TRUE\2CFG3D.SHOWTOPSILKSCREEN\3TRUE\2CFG3D.SHOWBOTSILKSCREEN\3TRUE\2CFG3D.SHOWORIGINMARKER\3TRUE\2CFG3D.EYEDIST\32000\2CFG3D.SHOWCUTOUTS\3TRUE\2CFG3D.SHOWROUTETOOLPATH\3TRUE\2CFG3D.SHOWROOMS3D\3FALSE\2CFG3D.USESYSCOLORSFOR3D\3FALSE\2CFG3D.WORKSPACECOLOR\316777215\2CFG3D.BOARDCORECOLOR\30\2CFG3D.BOARDPREPREGCOLOR\30\2CFG3D.TOPSOLDERMASKCOLOR\38732672\2CFG3D.BOTSOLDERMASKCOLOR\38732672\2CFG3D.COPPERCOLOR\32402753\2CFG3D.TOPSILKSCREENCOLOR\316448250\2CFG3D.BOTSILKSCREENCOLOR\316448250\2CFG3D.WORKSPACELUMINANCEVARIATION\330\2CFG3D.WORKSPACECOLOROPACITY\31.000000\2CFG3D.BOARDCORECOLOROPACITY\30.500000\2CFG3D.BOARDPREPREGCOLOROPACITY\30.500000\2CFG3D.TOPSOLDERMASKCOLOROPACITY\30.600000\2CFG3D.BOTSOLDERMASKCOLOROPACITY\30.600000\2CFG3D.COPPERCOLOROPACITY\31.000000\2CFG3D.TOPSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOTSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOARDTHICKNESSSCALING\31.000000\2CFG3D.SHOWMECHANICALLAYERS\3FALSE\2CFG3D.MECHANICALLAYERSOPACITY\31.000000|DocumentPath=D:\Dropbox (Inertial Sense)\InertialSense_Rug_uINS\uIG5_r0\Source Files\uIG5.PCBDOC
 OutputType26=PCB 3D Print
@@ -662,7 +662,7 @@ OutputEnabled26_OutputMedium6=0
 OutputEnabled26_OutputMedium7=0
 OutputEnabled26_OutputMedium8=0
 OutputDefault26=0
-PageOptions26=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=4.29|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions26=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=6.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration26_Name1=OutputConfigurationParameter1
 Configuration26_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=13503944|ViewY=4921265|LookAtX=31801972|LookAtY=17010628|LookAtZ=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=0.000111004607246594|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=False|ViewConfig=RECORD\3Board\2CFGALL.CONFIGURATIONKIND\33\2CFGALL.CONFIGURATIONDESC\3Enter%20description%20of%20new%20view%20configuration\2CFG3D.POSITIVETOPSOLDERMASK\3TRUE\2CFG3D.POSITIVEBOTTOMSOLDERMASK\3TRUE\2CFG3D.SHOWCOMPONENTBODIES\3SYSTEM\2CFG3D.SHOWCOMPONENTSTEPMODELS\3SYSTEM\2CFG3D.COMPONENTMODELPREFERENCE\30\2CFG3D.SHOWCOMPONENTSNAPMARKERS\3TRUE\2CFG3D.SHOWCOMPONENTAXES\3TRUE\2CFG3D.SHOWBOARDCORE\3TRUE\2CFG3D.SHOWBOARDPREPREG\3TRUE\2CFG3D.SHOWTOPSILKSCREEN\3TRUE\2CFG3D.SHOWBOTSILKSCREEN\3TRUE\2CFG3D.SHOWORIGINMARKER\3TRUE\2CFG3D.EYEDIST\32000\2CFG3D.SHOWCUTOUTS\3TRUE\2CFG3D.SHOWROUTETOOLPATH\3TRUE\2CFG3D.SHOWROOMS3D\3FALSE\2CFG3D.USESYSCOLORSFOR3D\3FALSE\2CFG3D.WORKSPACECOLOR\316777215\2CFG3D.BOARDCORECOLOR\30\2CFG3D.BOARDPREPREGCOLOR\30\2CFG3D.TOPSOLDERMASKCOLOR\38732672\2CFG3D.BOTSOLDERMASKCOLOR\38732672\2CFG3D.COPPERCOLOR\32402753\2CFG3D.TOPSILKSCREENCOLOR\316448250\2CFG3D.BOTSILKSCREENCOLOR\316448250\2CFG3D.WORKSPACELUMINANCEVARIATION\330\2CFG3D.WORKSPACECOLOROPACITY\31.000000\2CFG3D.BOARDCORECOLOROPACITY\30.500000\2CFG3D.BOARDPREPREGCOLOROPACITY\30.500000\2CFG3D.TOPSOLDERMASKCOLOROPACITY\30.600000\2CFG3D.BOTSOLDERMASKCOLOROPACITY\30.600000\2CFG3D.COPPERCOLOROPACITY\31.000000\2CFG3D.TOPSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOTSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOARDTHICKNESSSCALING\31.000000\2CFG3D.SHOWMECHANICALLAYERS\3FALSE\2CFG3D.MECHANICALLAYERSOPACITY\31.000000|DocumentPath=D:\Dropbox (Inertial Sense)\InertialSense_Rug_uINS\uIG5_r0\Source Files\uIG5.PCBDOC
 OutputType27=PCB 3D Video
@@ -688,7 +688,7 @@ OutputName28=_Instructions - PCB
 OutputCategory28=Documentation
 OutputDocumentPath28=Instructions_PCB.PCBDwf
 OutputVariantName28=
-OutputEnabled28=1
+OutputEnabled28=0
 OutputEnabled28_OutputMedium1=0
 OutputEnabled28_OutputMedium2=4
 OutputEnabled28_OutputMedium3=0
@@ -744,7 +744,7 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\_IS\hdw\altium\IS-hdw\Products\IG-1-1\Altium\Manufacturing\VariantName_PCB\
+OutputFilePath3=C:\_IS\hdw\altium\IS-hdw\Products\IG-1-1-G1\Altium\Manufacturing\VariantName_PCB\
 ReleaseManaged3=0
 OutputBasePath3=Manufacturing\
 OutputPathMedia3==VariantName +"_PCB"
@@ -808,7 +808,7 @@ ShowComponentParameters5=1
 GlobalBookmarks5=0
 PDFACompliance5=Disabled
 PDFVersion5=Default
-OutputFilePath6=C:\_IS\hdw\altium\IS-hdw\Products\IG-1-1\Altium\Manufacturing\VariantName_Assembly\
+OutputFilePath6=C:\_IS\hdw\altium\IS-hdw\Products\IG-1-1-G1\Altium\Manufacturing\VariantName_Assembly\
 ReleaseManaged6=0
 OutputBasePath6=Manufacturing\
 OutputPathMedia6==VariantName +"_Assembly"
@@ -889,7 +889,7 @@ PDFVersion8=Default
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\_IS\IS-hdw\altium\Projects\INS_AHRS\EVB_r1-5\Manufacturing\VariantName_PCB\
 OpenOutputs2=0
-RelativeOutputPath3=C:\_IS\hdw\altium\IS-hdw\Products\IG-1-1\Altium\Manufacturing\VariantName_PCB\
+RelativeOutputPath3=C:\_IS\hdw\altium\IS-hdw\Products\IG-1-1-G1\Altium\Manufacturing\VariantName_PCB\
 OpenOutputs3=0
 AddToProject3=0
 TimestampFolder3=0
@@ -903,7 +903,7 @@ RelativeOutputPath4=C:\_Walt\Altium\Projects\Mentor\Mentor_r1-0\Project Outputs\
 OpenOutputs4=1
 RelativeOutputPath5=C:\_IS\IS-hdw\altium\Projects\INS_AHRS\EVB_r1-5\Manufacturing\VariantName_Assembly\
 OpenOutputs5=0
-RelativeOutputPath6=C:\_IS\hdw\altium\IS-hdw\Products\IG-1-1\Altium\Manufacturing\VariantName_Assembly\
+RelativeOutputPath6=C:\_IS\hdw\altium\IS-hdw\Products\IG-1-1-G1\Altium\Manufacturing\VariantName_Assembly\
 OpenOutputs6=0
 AddToProject6=0
 TimestampFolder6=0
