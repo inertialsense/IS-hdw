@@ -1,8 +1,8 @@
-# IG-1
+# IG-1-G2
 
 ![IG-1](Images/ig-1.1-g2.png)
 
-The InertialSense IG-1 module combines the IMX-5 and up to two ublox ZED-F9P multi-band GNSS receivers in a compact surface mount modular form factor. 
+The InertialSense IG-1-G2 module combines the IMX-5 and two ublox ZED-F9P multi-band GNSS receivers in a compact surface mount modular form factor. 
 
 ## Features
 
