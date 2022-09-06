@@ -43,6 +43,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=IS-IG-r1.1.1.0-G2
 
 [Preferences]
 PrefsVaultGUID=
@@ -285,36 +286,36 @@ Path=..\..\Resources\Library_DB_Component_Files\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=ProjectTitle
-Value=IMX w/ RTK-GNSS Module
+Name=AddressLine1
+Value=3000 S. Sierra Vista Way
 
 [Parameter2]
-Name=PcbRevision
-Value=1.1.1
-
-[Parameter3]
-Name=PcbPartNumber
-Value=IS-IG-r1.1-G2
-
-[Parameter4]
-Name=Company
-Value=Inertial Sense, Inc.
-
-[Parameter5]
-Name=AddressLine4
-Value=
-
-[Parameter6]
-Name=AddressLine3
-Value=info@interialsense.com
-
-[Parameter7]
 Name=AddressLine2
 Value=Provo, UT 84606
 
+[Parameter3]
+Name=AddressLine3
+Value=info@interialsense.com
+
+[Parameter4]
+Name=AddressLine4
+Value=
+
+[Parameter5]
+Name=Company
+Value=Inertial Sense, Inc.
+
+[Parameter6]
+Name=PcbPartNumber
+Value=IS-IG-r1.1-G2
+
+[Parameter7]
+Name=PcbRevision
+Value=1.1.1
+
 [Parameter8]
-Name=AddressLine1
-Value=3000 S. Sierra Vista Way
+Name=ProjectTitle
+Value=IMX w/ RTK-GNSS Module
 
 [Configuration1]
 Name=Default Configuration
