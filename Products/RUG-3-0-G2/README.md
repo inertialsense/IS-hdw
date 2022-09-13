@@ -2,7 +2,7 @@
 
 <center>
 
-![RUG-3-IMX-5-Dual](Images/rug-3.0-G2.png)
+![RUG-3-IMX-5-Dual](Images/rug-3.0-g2.png)
 
 <center/>
 
