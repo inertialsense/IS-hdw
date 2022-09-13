@@ -1,12 +1,12 @@
-# RUG-IMX-5-Dual	(RUG-2.1-G2)
+# RUG-3-IMX-5-Dual	(Rugged-3 Dual)
 
 <center>
 
-![RUG-IMX-5-Dual](Images/rug-2.1-G2.png)
+![RUG-3-IMX-5-Dual](Images/rug-3.0-G2.png)
 
 <center/>
 
-The **RUG-IMX-5-Dual** adds a rugged aluminum enclosure and RS232, RS485, and CAN bus to the IMX-5. The **RUG-IMX-5-RTK** includes a multi-frequency GNSS receiver with RTK precision position enabling INS sensor fusion for roll, pitch, heading, velocity, and position. The **RUG-IMX-5-Dual** includes two multi-frequency GNSS receivers with RTK precision position and dual GNSS heading/compass. 
+The **RUG-3-IMX-5-Dual** adds a rugged aluminum enclosure and RS232, RS485, and CAN bus to the IMX-5. The **RUG-3-IMX-5-RTK** includes a multi-frequency GNSS receiver with RTK precision position enabling INS sensor fusion for roll, pitch, heading, velocity, and position. The **RUG-3-IMX-5-Dual** includes two multi-frequency GNSS receivers with RTK precision position and dual GNSS heading/compass. 
 
 ## Features
 

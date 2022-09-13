@@ -1,12 +1,12 @@
-# RUG-IMX-5	(RUG-2.1-G0)
+# RUG-3-IMX-5	(Rugged-3)
 
 <center>
 
-![RUG-IMX-5](Images/rug-2.1-G0.png)
+![RUG-3-IMX-5](Images/rug-3.0-G0.png)
 
 <center/>
 
-The **RUG-IMX-5** adds a rugged aluminum enclosure and RS232, RS485, and CAN bus to the IMX-5.  Addition of an external GNSS receiver enables the onboard Inertial Navigation System (INS) sensor fusion for roll, pitch, heading, velocity, and position.  
+The **RUG-3-IMX-5** adds a rugged aluminum enclosure and RS232, RS485, and CAN bus to the IMX-5.  Addition of an external GNSS receiver enables the onboard Inertial Navigation System (INS) sensor fusion for roll, pitch, heading, velocity, and position.  
 
 ## Features
 
