@@ -7,7 +7,7 @@ The Inertial Sense µIMU is a miniature calibrated Inertial Measurement Unit (IM
 ## Features
 
 - **Tactical Grade IMU**
-  - **Gyro: 1.5 °/hr Bias Instability, 0.15 °/√hr ARW**
+  - **Gyro: 1.5 °/hr Bias Instability, 0.16 °/√hr ARW**
   - **Accel: 19 µg Bias Instability, 0.02 m/s/√hr VRW**
 - **High Accuracy INS (w/ IMX-5):  0.03° Roll/Pitch, 0.1° Dynamic Heading** 
 - Surface Mount Reflowable (PCB Module)

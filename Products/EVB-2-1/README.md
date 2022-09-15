@@ -14,7 +14,7 @@ The EVB-2 PCB assembly design files are provided in Altium Designer format.
 - Companion Microchip SAME70 processor that serves as a communication bridge between the µINS, µAHRS, or µIMU and all other interfaces.
 
 - **Tactical Grade IMU (w/ IMU-5)**
-  - **Gyro: 1.5 °/hr Bias Instability, 0.15 °/√hr ARW**
+  - **Gyro: 1.5 °/hr Bias Instability, 0.16 °/√hr ARW**
   - **Accel: 19 μg Bias Instability, 0.02 m/s/√hr VRW**
 
 - **High Accuracy INS (w/ IMU-5):  0.03° Roll/Pitch, 0.1° Dynamic Heading**
