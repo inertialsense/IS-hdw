@@ -2,15 +2,17 @@
 
 ![IMX-5](Images/IMX_5.0_400w.jpg)
 
-The Inertial Sense µIMU is a miniature calibrated Inertial Measurement Unit (IMU), Attitude Heading Reference System (AHRS), and GNSS aided Inertial Navigation System (GNSS-INS) with sensor fusion to estimate roll, pitch, heading, velocity, and position.  GNSS receivers are not included onboard the µIMU module.
+The **IMX-5**™ is a 10-DOF sensor module consisting of a tactical grade Inertial Measurement Unit (IMU), magnetometer, and barometer. Output includes angular rate, linear acceleration, magnetic vector, and barometric pressure and altitude. IMU calibration consists of bias, scale factor, cross-axis alignment, and temperature compensation. The IMX-5 includes Attitude Heading Reference System (**AHRS**) sensor fusion to estimate roll, pitch, and heading. Adding GNSS input to the IMX-5 enables onboard Inertial Navigation System (**INS**) sensor fusion for roll, pitch, heading, velocity, and position.
 
 ## Features
 
 - **Tactical Grade IMU**
   - **Gyro: 1.5 °/hr Bias Instability, 0.16 °/√hr ARW**
   - **Accel: 19 µg Bias Instability, 0.02 m/s/√hr VRW**
-- **High Accuracy INS (w/ IMX-5):  0.03° Roll/Pitch, 0.1° Dynamic Heading** 
-- Surface Mount Reflowable (PCB Module)
+- **INS, AHRS**
+  - **Dynamic: 0.04° Roll/Pitch, 0.13° Heading**
+  - **Static: 0.1° Roll/Pitch, 0.5° Heading**
+- **Surface Mount Reflowable (PCB Module)**
 - Up to 1KHz IMU and INS Output Data Rate
 - Small Form Factor:  15.6 x 12.5 x 2.9 mm
 - Light Weight:  0.8 g
