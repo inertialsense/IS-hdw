@@ -1,6 +1,6 @@
 ﻿[Design]
 Version=1.0
-HierarchyMode=4
+HierarchyMode=0
 ChannelRoomNamingStyle=0
 ReleasesFolder=
 ChannelDesignatorFormatString=$Component_$RoomName
@@ -50,7 +50,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=Main.SchDoc
+DocumentPath=Figure.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -134,6 +134,91 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document6]
+DocumentPath=Main.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BLOYWJUL
+
+[Document7]
+DocumentPath=..\PCB_Library\Altium\IS-GPX-1.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UORCYEUO
+
+[Document8]
+DocumentPath=..\PCB_Library\Altium\IS-GPX-1.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document9]
+DocumentPath=..\..\IMX-5-0\PCB_Library\Altium\IS-IMX-5.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document10]
+DocumentPath=..\..\IMX-5-0\PCB_Library\Altium\IS-IMX-5.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=0CFC4E03-F0E8-481C-8AFB-00FE35557D89
 Description=IMX-5_GMX-0
@@ -163,36 +248,36 @@ Variation2=Designator=U3|UniqueId=\XXVDAIMF|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=AddressLine1
-Value=3000 S Sierra Vista Way
-
-[Parameter2]
-Name=AddressLine2
-Value=Suite 2
-
-[Parameter3]
-Name=AddressLine3
-Value=Provo, UT 84606
-
-[Parameter4]
-Name=AddressLine4
-Value=info@interialsense.com
-
-[Parameter5]
-Name=Company
-Value=Inertial Sense, Inc.
-
-[Parameter6]
-Name=PcbPartNumber
+Name=ProjectTitle
 Value=Example_IMX5_GPX1
 
-[Parameter7]
+[Parameter2]
 Name=PcbRevision
 Value=1.0
 
-[Parameter8]
-Name=ProjectTitle
+[Parameter3]
+Name=PcbPartNumber
 Value=Example_IMX5_GPX1
+
+[Parameter4]
+Name=Company
+Value=Inertial Sense, Inc.
+
+[Parameter5]
+Name=AddressLine4
+Value=info@interialsense.com
+
+[Parameter6]
+Name=AddressLine3
+Value=Provo, UT 84606
+
+[Parameter7]
+Name=AddressLine2
+Value=Suite 2
+
+[Parameter8]
+Name=AddressLine1
+Value=3000 S Sierra Vista Way
 
 [Configuration1]
 Name=Sources
@@ -316,7 +401,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=IS-HP8710 (HP OfficeJet Pro 8710)
+TargetPrinter=Bullzip PDF Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
