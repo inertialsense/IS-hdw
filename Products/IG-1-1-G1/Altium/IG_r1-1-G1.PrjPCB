@@ -117,40 +117,6 @@ GenerateClassCluster=0
 DocumentUniqueId=VCXWPYYC
 
 [Document5]
-DocumentPath=..\..\..\..\Libraries\Sensors.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=ACYGODJL
-
-[Document6]
-DocumentPath=..\..\..\..\Libraries\Sensors.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=XHBUPFAT
-
-[Document7]
 DocumentPath=Source Files\IG-1.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -167,7 +133,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document6]
 DocumentPath=Source Files\IG-1.PCBDOC
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -184,7 +150,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VXMDJKGA
 
-[Document9]
+[Document7]
 DocumentPath=..\..\IMX-5-0\PCB_Library\Altium\IS-IMX-5.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -201,7 +167,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BGTMVLAI
 
-[Document10]
+[Document8]
 DocumentPath=..\..\IMX-5-0\PCB_Library\Altium\IS-IMX-5.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -218,7 +184,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HJLOUIFJ
 
-[Document11]
+[Document9]
 DocumentPath=Documents\Project Notes.txt
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -235,8 +201,42 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document10]
+DocumentPath=..\..\..\..\altium\Libraries\Sensors.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ACYGODJL
+
+[Document11]
+DocumentPath=..\..\..\..\altium\Libraries\Sensors.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XHBUPFAT
+
 [Document12]
-DocumentPath=..\..\..\..\Libraries\General.PcbLib
+DocumentPath=..\..\..\..\altium\Libraries\General.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -253,7 +253,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document13]
-DocumentPath=..\..\..\..\Libraries\General.SchLib
+DocumentPath=..\..\..\..\altium\Libraries\General.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -285,36 +285,36 @@ Path=..\..\Resources\Library_DB_Component_Files\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=ProjectTitle
-Value=IMX w/ RTK-GNSS Module
+Name=AddressLine1
+Value=3000 S. Sierra Vista Way
 
 [Parameter2]
-Name=PcbRevision
-Value=1.1.1
-
-[Parameter3]
-Name=PcbPartNumber
-Value=IS-IG-r1.1-G1
-
-[Parameter4]
-Name=Company
-Value=Inertial Sense, Inc.
-
-[Parameter5]
-Name=AddressLine4
-Value=
-
-[Parameter6]
-Name=AddressLine3
-Value=info@interialsense.com
-
-[Parameter7]
 Name=AddressLine2
 Value=Provo, UT 84606
 
+[Parameter3]
+Name=AddressLine3
+Value=info@interialsense.com
+
+[Parameter4]
+Name=AddressLine4
+Value=
+
+[Parameter5]
+Name=Company
+Value=Inertial Sense, Inc.
+
+[Parameter6]
+Name=PcbPartNumber
+Value=IS-IG-r1.1-G1
+
+[Parameter7]
+Name=PcbRevision
+Value=1.1.1
+
 [Parameter8]
-Name=AddressLine1
-Value=3000 S. Sierra Vista Way
+Name=ProjectTitle
+Value=IMX w/ RTK-GNSS Module
 
 [Configuration1]
 Name=Default Configuration
@@ -486,7 +486,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Bullzip PDF Printer
+TargetPrinter=IS-HP8710 (HP OfficeJet Pro 8710)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -743,6 +743,12 @@ OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType9=Export Project History
+OutputName9=Export Project History
+OutputDocumentPath9=
+OutputVariantName9=[No Variations]
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup7]
 Name=Other Outputs
@@ -1093,6 +1099,7 @@ Type116=1
 Type117=1
 Type118=1
 Type119=1
+Type120=1
 
 [Difference Levels]
 Type1=1
