@@ -1,8 +1,8 @@
-ACCEL_ASCII "C:\_IS\hdw\altium\IS-hdw\Products\GPX-1-0\PCB_Library\P-CAD\IS-GPX-1_PCB.LIA"
+ACCEL_ASCII "C:\_IS\hdw\IS-hdw\Products\GPX-1-0\PCB_Library\P-CAD\IS-GPX-1_PCB.LIA"
 
 (asciiHeader
   (asciiVersion 3 0)
-  (timeStamp 2022 12 4 1 32 46)
+  (timeStamp 2022 12 7 0 41 10)
   (program "Design Explorer 99 SE" "6.1.0")
   (copyright "Copyright ® 2002 Altium Ltd")
   (headerString "")

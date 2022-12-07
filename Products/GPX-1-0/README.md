@@ -1,6 +1,6 @@
 # GPX-1
 
-![GPX-1](Images/GPX_1.0_400w.jpg)
+![GPX-1](Images/GPX_1.0_800w.jpg)
 
 The **GPX-1**™ is a dual antenna Multi-Band (L1/L5) GNSS with RTK precision positioning and compassing.  Adding the GPX-1 to the **IMX-5**™ enables onboard Inertial Navigation System (**INS**) sensor fusion for roll, pitch, heading, velocity, and position.
 
