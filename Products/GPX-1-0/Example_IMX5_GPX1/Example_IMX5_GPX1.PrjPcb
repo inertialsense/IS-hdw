@@ -101,47 +101,13 @@ GenerateClassCluster=0
 DocumentUniqueId=RTXYCERO
 
 [Document4]
-DocumentPath=..\..\..\..\Libraries\General.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document5]
-DocumentPath=..\..\..\..\Libraries\General.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document6]
 DocumentPath=Main.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -151,7 +117,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BLOYWJUL
 
-[Document7]
+[Document5]
 DocumentPath=..\PCB_Library\Altium\IS-GPX-1.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,7 +134,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UORCYEUO
 
-[Document8]
+[Document6]
 DocumentPath=..\PCB_Library\Altium\IS-GPX-1.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -185,7 +151,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
+[Document7]
 DocumentPath=..\..\IMX-5-0\PCB_Library\Altium\IS-IMX-5.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -202,8 +168,42 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document8]
 DocumentPath=..\..\IMX-5-0\PCB_Library\Altium\IS-IMX-5.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document9]
+DocumentPath=..\..\..\..\altium\Libraries\General.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document10]
+DocumentPath=..\..\..\..\altium\Libraries\General.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -248,36 +248,36 @@ Variation2=Designator=U3|UniqueId=\XXVDAIMF|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=ProjectTitle
-Value=Example_IMX5_GPX1
+Name=AddressLine1
+Value=3000 S Sierra Vista Way
 
 [Parameter2]
-Name=PcbRevision
-Value=1.0
-
-[Parameter3]
-Name=PcbPartNumber
-Value=Example_IMX5_GPX1
-
-[Parameter4]
-Name=Company
-Value=Inertial Sense, Inc.
-
-[Parameter5]
-Name=AddressLine4
-Value=info@interialsense.com
-
-[Parameter6]
-Name=AddressLine3
-Value=Provo, UT 84606
-
-[Parameter7]
 Name=AddressLine2
 Value=Suite 2
 
+[Parameter3]
+Name=AddressLine3
+Value=Provo, UT 84606
+
+[Parameter4]
+Name=AddressLine4
+Value=info@interialsense.com
+
+[Parameter5]
+Name=Company
+Value=Inertial Sense, Inc.
+
+[Parameter6]
+Name=PcbPartNumber
+Value=Example_IMX5_GPX1
+
+[Parameter7]
+Name=PcbRevision
+Value=1.0
+
 [Parameter8]
-Name=AddressLine1
-Value=3000 S Sierra Vista Way
+Name=ProjectTitle
+Value=Example_IMX5_GPX1
 
 [Configuration1]
 Name=Sources
