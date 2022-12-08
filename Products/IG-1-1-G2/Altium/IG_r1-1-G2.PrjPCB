@@ -236,7 +236,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MLYEYRDE
 
-
 [Document12]
 DocumentPath=..\..\..\..\altium\Libraries\Sensors.PcbLib
 AnnotationEnabled=1
