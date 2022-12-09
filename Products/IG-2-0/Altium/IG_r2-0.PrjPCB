@@ -294,41 +294,45 @@ ParameterCount=0
 VariationCount=0
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for uIG_r1-0\Net Status - IG-2.html
+DItemRevisionGUID=
+
 [SearchPath1]
 Path=..\..\Resources\Library_DB_Component_Files\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=ProjectTitle
-Value=IMX w/ RTK-GNSS Module
+Name=AddressLine1
+Value=3000 S. Sierra Vista Way
 
 [Parameter2]
-Name=PcbRevision
-Value=2.0.0
-
-[Parameter3]
-Name=PcbPartNumber
-Value=IS-IG-r2.0
-
-[Parameter4]
-Name=Company
-Value=Inertial Sense, Inc.
-
-[Parameter5]
-Name=AddressLine4
-Value=
-
-[Parameter6]
-Name=AddressLine3
-Value=info@interialsense.com
-
-[Parameter7]
 Name=AddressLine2
 Value=Provo, UT 84606
 
+[Parameter3]
+Name=AddressLine3
+Value=info@interialsense.com
+
+[Parameter4]
+Name=AddressLine4
+Value=
+
+[Parameter5]
+Name=Company
+Value=Inertial Sense, Inc.
+
+[Parameter6]
+Name=PcbPartNumber
+Value=IS-IG-r2.0
+
+[Parameter7]
+Name=PcbRevision
+Value=2.0.0
+
 [Parameter8]
-Name=AddressLine1
-Value=3000 S. Sierra Vista Way
+Name=ProjectTitle
+Value=IMX w/ RTK-GNSS Module
 
 [Configuration1]
 Name=Default Configuration
@@ -500,7 +504,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=IS-HP8710 (HP OfficeJet Pro 8710)
+TargetPrinter=Bullzip PDF Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
