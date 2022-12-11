@@ -250,7 +250,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=VXMDJKGA
+DocumentUniqueId=OQPKASFM
 
 [Document13]
 DocumentPath=..\..\GPX-1-0\PCB_Library\Altium\IS-GPX-1.PcbLib
@@ -327,10 +327,6 @@ AllowFabrication=0
 ParameterCount=0
 VariationCount=0
 ParamVariationCount=0
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for uIG_r1-0\Net Status - IG-2.html
-DItemRevisionGUID=
 
 [SearchPath1]
 Path=..\..\Resources\Library_DB_Component_Files\*.*
