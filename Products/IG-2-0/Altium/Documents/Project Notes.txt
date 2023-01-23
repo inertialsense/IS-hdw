@@ -3,10 +3,15 @@ IS-IG-r2.0.0 Project Notes   (- to do, + done, x skipped)
 ________________________________________________________________________________
 
 Changes for r2.0.1 (Future)
-- 
+- Expose GPX-1 serial port pins on IG pads so GPX can be accesse IF IMX5 is not
+  loaded.
+- Separate reset lines between IMX5 and GPX1 so SWD debug interfaces aren't tied
+  together.
+- Consider adding GPX-1 SPI to LGA pads.  
+- Consider adding shunt resistor to GPX-1 power.
 
 ________________________________________________________________________________
 
 Changes for r2.0.0
-- 
+-
 

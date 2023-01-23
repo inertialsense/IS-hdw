@@ -4,7 +4,9 @@ ________________________________________________________________________________
 
 Changes for r1.1.2 (Future)
 - Expose the ZED-F9P second serial port on IG-1 unused pads.
-
+- Expose GPX-1 serial port pins on IG pads so GPX can be accesse IF IMX5 is not
+  loaded.
+- Consider adding Tag-Connect SWD interface.
 ________________________________________________________________________________
 
 Changes for r1.1.1
