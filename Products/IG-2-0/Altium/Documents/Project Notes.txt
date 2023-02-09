@@ -11,6 +11,7 @@ Changes for r2.0.1 (Future)
 - Consider adding shunt resistor to GPX-1 power.
 - Space tag-connect debug connnectors further appart so we can use both ports
   at the same time.
+- Fix version number on the silkscreen.
 
 ________________________________________________________________________________
 
