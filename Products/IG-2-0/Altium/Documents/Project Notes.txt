@@ -10,7 +10,7 @@ Changes for r2.0.1 (Future)
 - Consider adding GPX-1 SPI to LGA pads.  
 - Consider adding shunt resistor to GPX-1 power.
 - Space tag-connect debug connnectors further appart so we can use both ports
-  at the same time.
+  at the same time.  Ideal spacing is 5.5mm.
 - Fix version number on the silkscreen.
 
 ________________________________________________________________________________
