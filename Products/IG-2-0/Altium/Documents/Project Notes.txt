@@ -5,6 +5,12 @@ ________________________________________________________________________________
 Changes for r2.0.2 (Future)
 - Consider switching out switching regulator for what that is configurable to
   1.8V using single I/O jumper.
+- Add diode from 3.3V to VBAT to supply VBAT when powered (if USB is used or
+  VBAT is not supplied).
+- Add 1-2uF cap to VBAT to suppress transients when main power is cut.
++ Add diode from 3.3V to VBAT to supply VBAT when powered (if USB is used or
+  VBAT is not supplied).
++ Add 1-2uF cap to VBAT to suppress transients when main power is cut.
 
 ________________________________________________________________________________
 

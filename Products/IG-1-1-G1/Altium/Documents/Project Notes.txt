@@ -4,6 +4,9 @@ ________________________________________________________________________________
 
 Changes for r1.1.2 (Future)
 - Expose the ZED-F9P second serial port on IG-1 unused pads.
++ Add diode from 3.3V to VBAT to supply VBAT when powered (if USB is used or
+  VBAT is not supplied).
++ Add 1-2uF cap to VBAT to suppress transients when main power is cut.
 
 ________________________________________________________________________________
 
