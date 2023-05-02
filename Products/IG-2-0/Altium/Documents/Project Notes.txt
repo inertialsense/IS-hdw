@@ -2,19 +2,22 @@ IS-IG-r2.0.1 Project Notes   (- to do, + done, x skipped)
 
 ________________________________________________________________________________
 
-Changes for r2.0.2 (Future)
-- Consider switching out switching regulator for what that is configurable to
-  1.8V using single I/O jumper.
-- Add diode from 3.3V to VBAT to supply VBAT when powered (if USB is used or
-  VBAT is not supplied).
-- Add 1-2uF cap to VBAT to suppress transients when main power is cut.
+Changes for r2.0.3 (Future)
+- Consider making switching regulator configurable via jumper for 1.8V output.
+  This could also be done by changing the resistor divider.
+- Consider adding the JTAG header (either SMD default style or tag connect with
+  locking pins.
+
+________________________________________________________________________________
+
+Changes for r2.0.2 (Current)
 + Add diode from 3.3V to VBAT to supply VBAT when powered (if USB is used or
   VBAT is not supplied).
 + Add 1-2uF cap to VBAT to suppress transients when main power is cut.
 
 ________________________________________________________________________________
 
-Changes for r2.0.1 (Current)
+Changes for r2.0.1
 + Expose GPX-1 serial port pins on IG pads so GPX can be accesse IF IMX5 is not
   loaded.
 + Separate reset lines between IMX5 and GPX1 so SWD debug interfaces aren't tied
