@@ -7,6 +7,9 @@ Changes for r2.0.3 (Future)
   This could also be done by changing the resistor divider.
 - Consider adding the JTAG header (either SMD default style or tag connect with
   locking pins.
+- Add pull-up resistor on GPS reset line so that GPS will be disabled won't
+  interfer with bootloader update.  Alternatively, the IMX could assert the
+  GPS reset during bootloader update.
 
 ________________________________________________________________________________
 

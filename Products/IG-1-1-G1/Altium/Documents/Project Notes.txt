@@ -7,6 +7,9 @@ Changes for r1.1.2 (Future)
 + Add diode from 3.3V to VBAT to supply VBAT when powered (if USB is used or
   VBAT is not supplied).
 + Add 1-2uF cap to VBAT to suppress transients when main power is cut.
+- Add pull-up resistor on GPS reset line so that GPS will be disabled won't
+  interfer with bootloader update.  Alternatively, the IMX could assert the
+  GPS reset during bootloader update.
 
 ________________________________________________________________________________
 
