@@ -10,7 +10,7 @@ Changes for r2.0.3 (Future)
 - Add pull-up resistor on GPS reset line so that GPS will be disabled won't
   interfer with bootloader update.  Alternatively, the IMX could assert the
   GPS reset during bootloader update.
-- Add missing GPX I/O pints to IG-2 SMT pins: USB, chip erase (boot mode). 
+- Add missing GPX I/O pints to IG-2 SMT pins: USB, chip erase (boot mode).
 
 ________________________________________________________________________________
 
