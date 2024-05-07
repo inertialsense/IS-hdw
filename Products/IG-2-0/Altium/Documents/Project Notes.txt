@@ -1,20 +1,24 @@
-IS-IG-r2.0.1 Project Notes   (- to do, + done, x skipped)
+IS-IG-r2.0.3 Project Notes   (- to do, + done, x skipped)
 
 ________________________________________________________________________________
 
-Changes for r2.0.3 (Future)
+Changes for r2.0.4 (Future)
 - Consider making switching regulator configurable via jumper for 1.8V output.
   This could also be done by changing the resistor divider.
 - Consider adding the JTAG header (either SMD default style or tag connect with
   locking pins.
-- Add pull-up resistor on GPS reset line so that GPS will be disabled won't
-  interfer with bootloader update.  Alternatively, the IMX could assert the
-  GPS reset during bootloader update.
-- Add missing GPX I/O pints to IG-2 SMT pins: USB, chip erase (boot mode).
 
 ________________________________________________________________________________
 
-Changes for r2.0.2 (Current)
+Changes for r2.0.3 (Current)
++ Add pull-up resistor on GPS reset line so that GPS will be disabled won't
+  interfer with bootloader update.  Alternatively, the IMX could assert the
+  GPS reset during bootloader update.
++ Add missing GPX I/O pins to IG-2 SMT pins: USB, chip erase (boot mode).
+
+________________________________________________________________________________
+
+Changes for r2.0.2
 + Add diode from 3.3V to VBAT to supply VBAT when powered (if USB is used or
   VBAT is not supplied).
 + Add 1-2uF cap to VBAT to suppress transients when main power is cut.
