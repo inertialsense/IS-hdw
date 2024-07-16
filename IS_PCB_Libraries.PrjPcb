@@ -135,23 +135,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document6]
-DocumentPath=Products\IG-1-1-G1\PCB_Library\IS-IG-1-G1.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=RLDDOPTK
-
-[Document7]
 DocumentPath=Products\IMX-5-0\PCB_Library\Altium\IS-IMX-5.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,7 +151,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HJLOUIFJ
 
-[Document8]
+[Document7]
 DocumentPath=Products\IG-1-1-G2\PCB_Library\Altium\IS-IG-1-G2.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -185,7 +168,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QNUOZGSW
 
-[Document9]
+[Document8]
 DocumentPath=Products\IG-1-1-G2\PCB_Library\Altium\IS-IG-1.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -202,7 +185,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CNPXDBUA
 
-[Document10]
+[Document9]
 DocumentPath=Products\GPX-1-0\PCB_Library\Altium\IS-GPX-1.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -219,7 +202,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document11]
+[Document10]
 DocumentPath=Products\GPX-1-0\PCB_Library\Altium\IS-GPX-1.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -236,7 +219,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BVBEZHVO
 
-[Document12]
+[Document11]
 DocumentPath=Products\IG-2-0\PCB_Library\Altium\IS-IG-2.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -253,7 +236,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JPGAFAII
 
-[Document13]
+[Document12]
 DocumentPath=Products\IG-2-0\PCB_Library\Altium\IS-IG-2.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
