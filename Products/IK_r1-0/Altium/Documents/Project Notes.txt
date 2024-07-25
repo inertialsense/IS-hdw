@@ -1,0 +1,45 @@
+IS-IG-r2.0.3 Project Notes   (- to do, + done, x skipped)
+
+________________________________________________________________________________
+
+Changes for r2.0.4 (Future)
+- Consider making switching regulator configurable via jumper for 1.8V output.
+  This could also be done by changing the resistor divider.
+- Consider adding the JTAG header (either SMD default style or tag connect with
+  locking pins.
+
+________________________________________________________________________________
+
+Changes for r2.0.3 (Current)
++ Add pull-up resistor on GPS reset line so that GPS will be disabled won't
+  interfer with bootloader update.  Alternatively, the IMX could assert the
+  GPS reset during bootloader update.
++ Add missing GPX I/O pins to IG-2 SMT pins: USB, chip erase (boot mode).
+
+________________________________________________________________________________
+
+Changes for r2.0.2
++ Add diode from 3.3V to VBAT to supply VBAT when powered (if USB is used or
+  VBAT is not supplied).
++ Add 1-2uF cap to VBAT to suppress transients when main power is cut.
+
+________________________________________________________________________________
+
+Changes for r2.0.1
++ Expose GPX-1 serial port pins on IG pads so GPX can be accesse IF IMX5 is not
+  loaded.
++ Separate reset lines between IMX5 and GPX1 so SWD debug interfaces aren't tied
+  together.
++ Connected TRACE/SWO from lines to debugger interface and IMX and GPX.
++ Consider adding GPX-1 SPI to LGA pads.
+x Consider adding shunt resistor to GPX-1 power.
++ Space tag-connect debug connnectors further appart so we can use both ports
+  at the same time.  Ideal spacing is 5.5mm.
++ Fix version number on the silkscreen.
+
+
+________________________________________________________________________________
+
+Changes for r2.0.0
+-
+
