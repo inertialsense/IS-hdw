@@ -13,6 +13,8 @@ Changes for r1.1.2 (Future)
 - Add pull-up resistor on GPS reset line so that GPS will be disabled won't
   interfer with bootloader update.  Alternatively, the IMX could assert the
   GPS reset during bootloader update.
+- Switch the SMT pins/pads from ground to no connect for the pins that 
+  correspond with the IG-2 so they share the same footprint. 
 
 ________________________________________________________________________________
 
