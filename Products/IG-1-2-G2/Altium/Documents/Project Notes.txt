@@ -1,0 +1,50 @@
+IS-IG-r1.2.0-G2 Project Notes   (- to do, + done, x skipped)
+
+________________________________________________________________________________
+
+Changes for r1.2.1 (Future)
+- 
+
+________________________________________________________________________________
+
+Changes for r1.2.0
+x Consider adding Tag-Connect SWD interface.
++ Add diode from 3.3V to VBAT to supply VBAT when powered (if USB is used or
+  VBAT is not supplied).
++ Add 1-2uF cap to VBAT to suppress transients when main power is cut.
++ Add pull-up resistor on GPS reset line so that GPS will be disabled won't
+  interfere with bootloader update.  Alternatively, the IMX could assert the
+  GPS reset during bootloader update.
++ Expose the ZED-F9P second serial port on IG-1 unused pads.
++ Switch the SMT pins/pads from ground to no connect for the pins that
+  correspond with the IG-2 so they share the same footprint. 
+________________________________________________________________________________
+
+Changes for r1.1.1
++ Switched pin H1-4 from GPS_RESET_N to G13/DRDY/XSDA (SPI data ready).
++ Switched pin 4 on U1 LGA pads from GPS_RESET_N to RESERVED.
+________________________________________________________________________________
+
+Changes for r1.1.0
++ Enable GPS PPS input on IMX-5 pin 20 (GPS.TIMEPULSE).  Connect GPS1.TIMEPULSE
+  pin to this pin instead of IMX-5 G8 and connect to IG-1 pin 14
+  (GPS.TIMEPULSE).  This will free up the SPI bus for use on the IG-1.
++ Add jumper for GPS2.TIMEPULSE to IMX-5 G9 pin 10 to support GPS2 PPS input.
+________________________________________________________________________________
+
+Changes for r1.0.2
++ Remove ground via that shorts GPS2 Tx line.
++ Fix incorrect header part number.
++ Move USB pads to prevent USB connector from shorting to USB castellated pads.
++ Switch GPS_RESET to G12/SWO/XSCL so that we can make G13/DRDY/XSDA (SPI data
+  ready) available.
+________________________________________________________________________________
+
+Changes for r0.0.1
++ Remove LDO regulators to reduce power consumption.
++ Add second ZED-F9P.  Use SMD jumpers to connect between Ser2 and Ser1.
+________________________________________________________________________________
+
+Changes for r0.0
+x Design tabs for mounting in plastic case.
+x Make sure other GNSS modules will fit in area of ZED-F9P.
