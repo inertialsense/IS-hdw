@@ -49,4 +49,4 @@ Email - support@inertialsense.com
 
 ------
 
-(c) 2014-2023 Inertial Sense, Inc.
+(c) 2014-2024 Inertial Sense, Inc.
