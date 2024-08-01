@@ -1,8 +1,13 @@
-IS-IG-r1.1.1 Project Notes   (- to do, + done, x skipped)
+IS-IG-r1.2.0-G2 Project Notes   (- to do, + done, x skipped)
 
 ________________________________________________________________________________
 
-Changes for r1.1.2 (Future)
+Changes for r1.2.1 (Future)
+- 
+
+________________________________________________________________________________
+
+Changes for r1.2.0
 x Consider adding Tag-Connect SWD interface.
 + Add diode from 3.3V to VBAT to supply VBAT when powered (if USB is used or
   VBAT is not supplied).
@@ -13,7 +18,6 @@ x Consider adding Tag-Connect SWD interface.
 + Expose the ZED-F9P second serial port on IG-1 unused pads.
 + Switch the SMT pins/pads from ground to no connect for the pins that
   correspond with the IG-2 so they share the same footprint. 
-
 ________________________________________________________________________________
 
 Changes for r1.1.1

@@ -1,22 +1,28 @@
-IS-IG-r1.1.1-G1 Project Notes   (- to do, + done, x skipped)
+IS-IG-r1.2.0-G1 Project Notes   (- to do, + done, x skipped)
 
 ________________________________________________________________________________
 
-Changes for r1.1.2 (Future)
-- Expose the ZED-F9P second serial port on IG-1 unused pads.
+Changes for r1.2.1 (Future)
+- 
+
+________________________________________________________________________________
+
+Changes for r1.2.0
+x Consider adding Tag-Connect SWD interface.
 + Add diode from 3.3V to VBAT to supply VBAT when powered (if USB is used or
   VBAT is not supplied).
 + Add 1-2uF cap to VBAT to suppress transients when main power is cut.
-- Add pull-up resistor on GPS reset line so that GPS will be disabled won't
-  interfer with bootloader update.  Alternatively, the IMX could assert the
++ Add pull-up resistor on GPS reset line so that GPS will be disabled won't
+  interfere with bootloader update.  Alternatively, the IMX could assert the
   GPS reset during bootloader update.
-
++ Expose the ZED-F9P second serial port on IG-1 unused pads.
++ Switch the SMT pins/pads from ground to no connect for the pins that
+  correspond with the IG-2 so they share the same footprint. 
 ________________________________________________________________________________
 
 Changes for r1.1.1
 + Switched pin H1-4 from GPS_RESET_N to G13/DRDY/XSDA (SPI data ready).
 + Switched pin 4 on U1 LGA pads from GPS_RESET_N to RESERVED.
-
 ________________________________________________________________________________
 
 Changes for r1.1.0
