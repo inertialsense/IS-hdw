@@ -385,6 +385,7 @@ Path=..\..\Resources\Library_DB_Component_Files\*.*
 IncludeSubFolders=1
 
 [Parameter1]
+<<<<<<< HEAD
 Name=
 Value=
 
@@ -419,6 +420,38 @@ Value=Provo, UT 84606
 [Parameter9]
 Name=AddressLine1
 Value=3000 S. Sierra Vista Way
+=======
+Name=AddressLine1
+Value=3000 S. Sierra Vista Way
+
+[Parameter2]
+Name=AddressLine2
+Value=Provo, UT 84606
+
+[Parameter3]
+Name=AddressLine3
+Value=info@interialsense.com
+
+[Parameter4]
+Name=AddressLine4
+Value=
+
+[Parameter5]
+Name=Company
+Value=Inertial Sense, Inc.
+
+[Parameter6]
+Name=PcbPartNumber
+Value=IS-IK-r1-0
+
+[Parameter7]
+Name=PcbRevision
+Value=1.0.0
+
+[Parameter8]
+Name=ProjectTitle
+Value=IS Breadboard Adapter
+>>>>>>> 58c8b2e822f2ec37c7bcdd26ffb7ba65324aa9ad
 
 [Configuration1]
 Name=Default Configuration
@@ -738,11 +771,6 @@ OutputName3=Test Point Report
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
-OutputType4=Wire Bonding Table
-OutputName4=Wire Bonding Table Report
-OutputDocumentPath4=
-OutputVariantName4=[No Variations]
-OutputDefault4=0
 
 [OutputGroup5]
 Name=Fabrication Outputs
@@ -1397,7 +1425,6 @@ Type150=2
 Type151=2
 Type152=1
 Type153=1
-Type154=0
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNNNNNWW
