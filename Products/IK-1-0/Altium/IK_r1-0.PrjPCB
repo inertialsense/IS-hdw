@@ -44,7 +44,6 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=IS-IG-r2.0.3.0
 
 [Preferences]
 PrefsVaultGUID=
@@ -339,9 +338,26 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OQPKASFM
 
+[Document18]
+DocumentPath=Source Files\IK-1.PCBDOC
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=OQPKASFM
+
 [ProjectVariant1]
 UniqueId=A5428F82-C62F-4E41-B198-A7F940D0888A
-Description=IS-IG-r2.0.3.0
+Description=IS-IK-r1.0.0
 AllowFabrication=0
 ParameterCount=0
 VariationCount=0
@@ -352,36 +368,36 @@ Path=..\..\Resources\Library_DB_Component_Files\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=AddressLine1
-Value=3000 S. Sierra Vista Way
+Name=ProjectTitle
+Value=IS Breadboard Adapter
 
 [Parameter2]
-Name=AddressLine2
-Value=Provo, UT 84606
-
-[Parameter3]
-Name=AddressLine3
-Value=info@interialsense.com
-
-[Parameter4]
-Name=AddressLine4
-Value=
-
-[Parameter5]
-Name=Company
-Value=Inertial Sense, Inc.
-
-[Parameter6]
-Name=PcbPartNumber
-Value=IS-IG-BB-r1-0
-
-[Parameter7]
 Name=PcbRevision
 Value=1.0.0
 
+[Parameter3]
+Name=PcbPartNumber
+Value=IS-IK-r1-0
+
+[Parameter4]
+Name=Company
+Value=Inertial Sense, Inc.
+
+[Parameter5]
+Name=AddressLine4
+Value=
+
+[Parameter6]
+Name=AddressLine3
+Value=info@interialsense.com
+
+[Parameter7]
+Name=AddressLine2
+Value=Provo, UT 84606
+
 [Parameter8]
-Name=ProjectTitle
-Value=IS Breadboard Adapter
+Name=AddressLine1
+Value=3000 S. Sierra Vista Way
 
 [Configuration1]
 Name=Default Configuration
@@ -701,6 +717,11 @@ OutputName3=Test Point Report
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
+OutputType4=Wire Bonding Table
+OutputName4=Wire Bonding Table Report
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
 
 [OutputGroup5]
 Name=Fabrication Outputs
@@ -1355,6 +1376,7 @@ Type150=2
 Type151=2
 Type152=1
 Type153=1
+Type154=0
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNNNNNWW
