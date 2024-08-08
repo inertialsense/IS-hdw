@@ -34,6 +34,11 @@ The InertialSense IG-1-G2 module combines the IMX-5 and two ublox ZED-F9P multi-
 - Robotics and Ground Vehicles
 - Maritime
 
+## Hardware Versions
+
+- IG-1.2
+- IG-1.1
+- IG-1.0
 
 ## LICENSE
 
