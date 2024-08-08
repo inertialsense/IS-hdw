@@ -34,7 +34,12 @@ The InertialSense IG-1 module combines the IMX-5 and a ublox ZED-F9P multi-band 
 - Robotics and Ground Vehicles
 - Maritime
 
+## Hardware Versions
 
+- IG-1.2
+- IG-1.1
+- IG-1.0
+- 
 ## LICENSE
 
 <img src="https://www.oshwa.org/wp-content/uploads/2014/03/oshw-logo.svg" width="100" align="right" />
