@@ -50,7 +50,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=Products\uINS-3-2\PCB_Library\Altium\IS-uINS-3.PcbLib
+DocumentPath=Products\uINS-3\uINS-3-2\PCB_Library\Altium\IS-uINS-3.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -60,14 +60,14 @@ AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document2]
-DocumentPath=Products\uINS-3-2\PCB_Library\Altium\IS-uINS-3.SchLib
+DocumentPath=Products\uINS-3\uINS-3-2\PCB_Library\Altium\IS-uINS-3.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -77,14 +77,14 @@ AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document3]
-DocumentPath=Products\EVB-2-1\PCB_Library\Altium\IS-EVB-2.PcbLib
+DocumentPath=Products\EVB-2\EVB-2-1\PCB_Library\Altium\IS-EVB-2.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -94,14 +94,14 @@ AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document4]
-DocumentPath=Products\EVB-2-1\PCB_Library\Altium\IS-EVB-2.SchLib
+DocumentPath=Products\EVB-2\EVB-2-1\PCB_Library\Altium\IS-EVB-2.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -111,14 +111,14 @@ AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
-DocumentPath=Products\IMX-5-0\PCB_Library\Altium\IS-IMX-5.PcbLib
+DocumentPath=Products\IMX-5\IMX-5-0\PCB_Library\Altium\IS-IMX-5.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -128,14 +128,14 @@ AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document6]
-DocumentPath=Products\IMX-5-0\PCB_Library\Altium\IS-IMX-5.SchLib
+DocumentPath=Products\IMX-5\IMX-5-0\PCB_Library\Altium\IS-IMX-5.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -145,14 +145,14 @@ AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=HJLOUIFJ
+DocumentUniqueId=
 
 [Document7]
-DocumentPath=Products\IG-1-2-G1\PCB_Library\Altium\IS-IG-1-G1.PcbLib
+DocumentPath=Products\IG-1\IG-1-2-G1\PCB_Library\Altium\IS-IG-1-G1.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -166,10 +166,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=RLDDOPTK
+DocumentUniqueId=
 
 [Document8]
-DocumentPath=Products\IG-1-2-G2\PCB_Library\Altium\IS-IG-1-G2.PcbLib
+DocumentPath=Products\IG-1\IG-1-2-G2\PCB_Library\Altium\IS-IG-1-G2.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -183,10 +183,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=NDTBINUK
+DocumentUniqueId=
 
 [Document9]
-DocumentPath=Products\IG-2-0\PCB_Library\Altium\IS-IG-2.PcbLib
+DocumentPath=Products\IG-2\IG-2-0\PCB_Library\Altium\IS-IG-2.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -200,10 +200,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=JPGAFAII
+DocumentUniqueId=
 
 [Document10]
-DocumentPath=Products\GPX-1-0\PCB_Library\Altium\IS-GPX-1.PcbLib
+DocumentPath=Products\GPX-1\GPX-1-0\PCB_Library\Altium\IS-GPX-1.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -213,14 +213,14 @@ AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document11]
-DocumentPath=Products\IG-1-2-G1\PCB_Library\Altium\IS-IG-1-G1.SchLib
+DocumentPath=Products\IG-1\IG-1-2-G1\PCB_Library\Altium\IS-IG-1-G1.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -234,10 +234,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=CNPXDBUA
+DocumentUniqueId=
 
 [Document12]
-DocumentPath=Products\IG-1-2-G2\PCB_Library\Altium\IS-IG-1-G2.SchLib
+DocumentPath=Products\IG-1\IG-1-2-G2\PCB_Library\Altium\IS-IG-1-G2.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -251,10 +251,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=JBNYGWOE
+DocumentUniqueId=
 
 [Document13]
-DocumentPath=Products\IG-2-0\PCB_Library\Altium\IS-IG-2.SchLib
+DocumentPath=Products\IG-2\IG-2-0\PCB_Library\Altium\IS-IG-2.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -268,10 +268,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=GQLXTUFD
+DocumentUniqueId=
 
 [Document14]
-DocumentPath=Products\GPX-1-0\PCB_Library\Altium\IS-GPX-1.SchLib
+DocumentPath=Products\GPX-1\GPX-1-0\PCB_Library\Altium\IS-GPX-1.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -281,11 +281,11 @@ AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=BVBEZHVO
+DocumentUniqueId=
 
 [Configuration1]
 Name=Sources
