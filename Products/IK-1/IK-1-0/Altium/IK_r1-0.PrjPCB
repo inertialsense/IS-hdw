@@ -44,6 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=IS-IK-r1.0.0-GPX-1-0
 
 [Preferences]
 PrefsVaultGUID=
@@ -356,11 +357,41 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [ProjectVariant1]
-UniqueId=A5428F82-C62F-4E41-B198-A7F940D0888A
-Description=IS-IK-r1.0.0
+UniqueId=4147C384-7571-4701-981A-0C224DD0BE70
+Description=IS-IK-r1.0.0-GPX-1-0
 AllowFabrication=0
 ParameterCount=0
-VariationCount=0
+VariationCount=5
+Variation1=Designator=H1|UniqueId=\IERPDYQT|Kind=1|AlternatePart=
+Variation2=Designator=H3|UniqueId=\ZBKHAGYY|Kind=1|AlternatePart=
+Variation3=Designator=H4|UniqueId=\KXWPPWZQ|Kind=1|AlternatePart=
+Variation4=Designator=H2|UniqueId=\UIYMRHRH|Kind=1|AlternatePart=
+Variation5=Designator=U2|UniqueId=\KNHREIZE|Kind=0|AlternatePart=
+ParamVariation1=ParameterName=Manufacturer Part Number|VariantValue=IS-GPX-1
+ParamDesignator1=U2
+ParamVariation2=ParameterName=Supplier Part Number 1|VariantValue=IS-GPX-1
+ParamDesignator2=U2
+ParamVariation3=ParameterName=Description|VariantValue=Inertial Sense GPX
+ParamDesignator3=U2
+ParamVariationCount=3
+
+[ProjectVariant2]
+UniqueId=A5428F82-C62F-4E41-B198-A7F940D0888A
+Description=IS-IK-r1.0.0-IMX-5-0
+AllowFabrication=0
+ParameterCount=0
+VariationCount=11
+Variation1=Designator=J1|UniqueId=\BMMKJXER|Kind=1|AlternatePart=
+Variation2=Designator=I1|UniqueId=\JVYEOCAV|Kind=1|AlternatePart=
+Variation3=Designator=I4|UniqueId=\MCAMATFA|Kind=1|AlternatePart=
+Variation4=Designator=D2|UniqueId=\XVJWINYI|Kind=1|AlternatePart=
+Variation5=Designator=D1|UniqueId=\AHRVFVFA|Kind=1|AlternatePart=
+Variation6=Designator=J2|UniqueId=\YJYFBWTO|Kind=1|AlternatePart=
+Variation7=Designator=R3|UniqueId=\IEYDYPDM|Kind=1|AlternatePart=
+Variation8=Designator=H3|UniqueId=\ZBKHAGYY|Kind=1|AlternatePart=
+Variation9=Designator=H4|UniqueId=\KXWPPWZQ|Kind=1|AlternatePart=
+Variation10=Designator=H2|UniqueId=\UIYMRHRH|Kind=1|AlternatePart=
+Variation11=Designator=H1|UniqueId=\IERPDYQT|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [SearchPath1]
@@ -717,11 +748,6 @@ OutputName3=Test Point Report
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
-OutputType4=Wire Bonding Table
-OutputName4=Wire Bonding Table Report
-OutputDocumentPath4=
-OutputVariantName4=[No Variations]
-OutputDefault4=0
 
 [OutputGroup5]
 Name=Fabrication Outputs
@@ -1376,7 +1402,6 @@ Type150=2
 Type151=2
 Type152=1
 Type153=1
-Type154=0
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNNNNNWW
