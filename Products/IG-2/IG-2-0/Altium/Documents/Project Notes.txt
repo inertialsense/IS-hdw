@@ -7,6 +7,7 @@ Changes for r2.0.4 (Future)
   This could also be done by changing the resistor divider.
 - Consider adding the JTAG header (either SMD default style or tag connect with
   locking pins.
+- Connect GPX GNSS2_PPS to IMX G13/DRDY/XSDA.
 
 ________________________________________________________________________________
 
