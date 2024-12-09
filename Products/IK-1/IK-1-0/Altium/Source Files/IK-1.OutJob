@@ -17,7 +17,7 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=IK-1.OutJob
 Description=
-TargetOutputMedium=3D Model
+TargetOutputMedium=PCB - Manufacturing Files
 VariantName=IS-IK-r1.0.0-GPX-1-0
 VariantScope=1
 CurrentConfigurationName=
@@ -330,7 +330,7 @@ OutputVariantName9=
 OutputEnabled9=0
 OutputEnabled9_OutputMedium1=0
 OutputEnabled9_OutputMedium2=0
-OutputEnabled9_OutputMedium3=1
+OutputEnabled9_OutputMedium3=0
 OutputEnabled9_OutputMedium4=0
 OutputEnabled9_OutputMedium5=0
 OutputEnabled9_OutputMedium6=0
@@ -364,7 +364,7 @@ OutputVariantName11=
 OutputEnabled11=0
 OutputEnabled11_OutputMedium1=0
 OutputEnabled11_OutputMedium2=0
-OutputEnabled11_OutputMedium3=2
+OutputEnabled11_OutputMedium3=0
 OutputEnabled11_OutputMedium4=0
 OutputEnabled11_OutputMedium5=0
 OutputEnabled11_OutputMedium6=0
@@ -427,10 +427,10 @@ OutputName15=Bill of Materials OLD
 OutputCategory15=Report
 OutputDocumentPath15=
 OutputVariantName15=IS-MENTOR-r1.0
-OutputEnabled15=0
+OutputEnabled15=1
 OutputEnabled15_OutputMedium1=0
 OutputEnabled15_OutputMedium2=0
-OutputEnabled15_OutputMedium3=0
+OutputEnabled15_OutputMedium3=1
 OutputEnabled15_OutputMedium4=0
 OutputEnabled15_OutputMedium5=0
 OutputEnabled15_OutputMedium6=0
@@ -445,7 +445,7 @@ Configuration15_Item2=OpenExported=False|AddToProject=True|ForceFit=False|NotFit
 Configuration15_Name3=GroupOrder
 Configuration15_Item3=Manufacturer Part Number=True|Fitted=True
 Configuration15_Name4=OutputConfigurationParameter1
-Configuration15_Item4=Record=BOMPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False
+Configuration15_Item4=Record=BOMPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|DocumentPath=[Project]
 Configuration15_Name5=PCBDocument
 Configuration15_Item5=
 Configuration15_Name6=SortOrder
@@ -670,7 +670,7 @@ OutputName27=PCB 3D Video
 OutputCategory27=Documentation
 OutputDocumentPath27=
 OutputVariantName27=
-OutputEnabled27=1
+OutputEnabled27=0
 OutputEnabled27_OutputMedium1=0
 OutputEnabled27_OutputMedium2=0
 OutputEnabled27_OutputMedium3=0
