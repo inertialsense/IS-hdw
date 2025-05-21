@@ -1,0 +1,12 @@
+Export log for : IS-GPX-1_PCB.Rep
+AddingPadStyle (Default)
+AddingPadStyle EF67X31TOP1
+AddingPadStyle EF59X59TOP1
+Adding ViaStyle (Default)
+Adding TextStyle (Default)
+Adding TextStyle T:H40W6
+Adding PatternDef IS-GPX-1.0
+      Warning: Unexpected ComponentBody Object Found On Layer Mechanical13.
+Adding CompDef IS-GPX-1.0
+ 
+EndLog
