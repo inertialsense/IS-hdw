@@ -1,17 +1,22 @@
-IS-IG-r2.0.3 Project Notes   (- to do, + done, x skipped)
+IS-IG-r2.1.0 Project Notes   (- to do, + done, x skipped)
 
 ________________________________________________________________________________
 
-Changes for r2.0.4 (Future)
+Changes for r2.1.1 (Future)
+-
+
+________________________________________________________________________________
+
+Changes for r2.1.0 (Current)
 - Consider making switching regulator configurable via jumper for 1.8V output.
   This could also be done by changing the resistor divider.
 - Consider adding the JTAG header (either SMD default style or tag connect with
   locking pins.
-- Connect GPX GNSS2_PPS to IMX G13/DRDY/XSDA.
++ Connect GPX GNSS2_PPS to IMX G13/DRDY/XSDA.
 
 ________________________________________________________________________________
 
-Changes for r2.0.3 (Current)
+Changes for r2.0.3
 + Add pull-up resistor on GPS reset line so that GPS will be disabled won't
   interfer with bootloader update.  Alternatively, the IMX could assert the
   GPS reset during bootloader update.
