@@ -1,8 +1,8 @@
-# IG-2
+# IG-2.0
 
-![IG-2](Images/IG-2.png)
+![IG-2.0](Images/IG-2.png)
 
-The InertialSense IG-2 module combines the IMX-5 and GPX-1 dual multi-band GNSS receiver in a compact surface mount modular form factor. 
+The InertialSense IG-2.0 module combines the IMX-5 and GPX-1 dual multi-band GNSS receiver in a compact surface mount modular form factor. 
 
 ## Features
 
