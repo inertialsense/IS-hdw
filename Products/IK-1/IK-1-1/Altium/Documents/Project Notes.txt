@@ -1,4 +1,4 @@
-IS-IK-r1.0.0 Project Notes   (- to do, + done, x skipped)
+IS-IK-r1.1.0 Project Notes   (- to do, + done, x skipped)
 
 Changes for r1.1.1 (Future)
 - 
