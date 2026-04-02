@@ -2,7 +2,7 @@
 
 ![IK-1](Images/ik-1.png)
 
-The InertialSense IK-1 is a breakout board usable with the IMX-5 or GPX-1 dual multi-band GNSS receiver, exposing all pins for evaluation and development.  The IK-1 headers are 0.1" pitch.
+The InertialSense IK-1 is a breakout board usable with the IMX or GPX dual multi-band GNSS receiver, exposing all pins for evaluation and development.  The IK-1 headers are 0.1" pitch.
 
 
 ## LICENSE
@@ -19,4 +19,4 @@ Email - support@inertialsense.com
 
 ------
 
-(c) 2014-2024 Inertial Sense, Inc.
+(c) 2014-2026 Inertial Sense, Inc.
