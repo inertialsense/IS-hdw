@@ -15,10 +15,10 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=IK-1.OutJob
+Name=
 Description=
-TargetOutputMedium=PCB - Manufacturing Files
-VariantName=IS-IK-r1.1.0-IMX-6-0
+TargetOutputMedium=Assembly - Manufacturing Files
+VariantName=IS-IK-r1.1.0-GPX-1-0
 VariantScope=1
 CurrentConfigurationName=
 TargetPrinter=Microsoft Print to PDF
@@ -171,7 +171,7 @@ OutputName5=Generates pick and place files
 OutputCategory5=Assembly
 OutputDocumentPath5=
 OutputVariantName5=ISR-DSP-VESU-02-01
-OutputEnabled5=0
+OutputEnabled5=1
 OutputEnabled5_OutputMedium1=0
 OutputEnabled5_OutputMedium2=0
 OutputEnabled5_OutputMedium3=0
@@ -378,7 +378,7 @@ OutputName12=ODB++ Files
 OutputCategory12=Fabrication
 OutputDocumentPath12=
 OutputVariantName12=
-OutputEnabled12=0
+OutputEnabled12=1
 OutputEnabled12_OutputMedium1=0
 OutputEnabled12_OutputMedium2=0
 OutputEnabled12_OutputMedium3=0
@@ -427,7 +427,7 @@ OutputName15=Bill of Materials OLD
 OutputCategory15=Report
 OutputDocumentPath15=
 OutputVariantName15=IS-MENTOR-r1.0
-OutputEnabled15=1
+OutputEnabled15=0
 OutputEnabled15_OutputMedium1=0
 OutputEnabled15_OutputMedium2=0
 OutputEnabled15_OutputMedium3=1
@@ -576,7 +576,7 @@ OutputName23=BOM Purchase
 OutputCategory23=Report
 OutputDocumentPath23=
 OutputVariantName23=IS-EVB-r1.3.1
-OutputEnabled23=0
+OutputEnabled23=1
 OutputEnabled23_OutputMedium1=0
 OutputEnabled23_OutputMedium2=0
 OutputEnabled23_OutputMedium3=0
@@ -590,7 +590,7 @@ PageOptions23=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 Configuration23_Name1=ColumnNameFormat
 Configuration23_Item1=CaptionAsName
 Configuration23_Name2=General
-Configuration23_Item2=OpenExported=True|AddToProject=True|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=True|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\_IS\hdw\altium\Templates\BOM IS Purchase.xltx|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1347|FormHeight=681|SupplierProdQty=200|SupplierAutoQty=True|SupplierUseCachedPricing=True|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration23_Item2=OpenExported=True|AddToProject=True|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=True|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=..\..\..\..\..\altium\Templates\BOM IS Purchase.xltx|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1347|FormHeight=681|SupplierProdQty=200|SupplierAutoQty=True|SupplierUseCachedPricing=True|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|BomSetName=
 Configuration23_Name3=GroupOrder
 Configuration23_Item3=Fitted=True|Manufacturer Part Number=True
 Configuration23_Name4=OutputConfigurationParameter1
@@ -808,7 +808,7 @@ ShowComponentParameters5=1
 GlobalBookmarks5=0
 PDFACompliance5=Disabled
 PDFVersion5=Default
-OutputFilePath6=C:\Users\tmcd2\HardwareRepo\IS-hdw\Products\IK-1\IK-1-0\Altium\Manufacturing\VariantName_Assembly\
+OutputFilePath6=C:\Users\WaltJohnson\hdw\IS-hdw\Products\IK-1\IK-1-1\Altium\Manufacturing\VariantName_Assembly\
 ReleaseManaged6=0
 OutputBasePath6=Manufacturing\
 OutputPathMedia6==VariantName +"_Assembly"
@@ -903,7 +903,7 @@ RelativeOutputPath4=C:\_Walt\Altium\Projects\Mentor\Mentor_r1-0\Project Outputs\
 OpenOutputs4=1
 RelativeOutputPath5=C:\_IS\IS-hdw\altium\Projects\INS_AHRS\EVB_r1-5\Manufacturing\VariantName_Assembly\
 OpenOutputs5=0
-RelativeOutputPath6=C:\Users\tmcd2\HardwareRepo\IS-hdw\Products\IK-1\IK-1-0\Altium\Manufacturing\VariantName_Assembly\
+RelativeOutputPath6=C:\Users\WaltJohnson\hdw\IS-hdw\Products\IK-1\IK-1-1\Altium\Manufacturing\VariantName_Assembly\
 OpenOutputs6=0
 AddToProject6=0
 TimestampFolder6=0
