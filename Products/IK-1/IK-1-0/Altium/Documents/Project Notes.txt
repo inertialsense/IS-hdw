@@ -1,9 +1,14 @@
 IS-IK-r1.0.0 Project Notes   (- to do, + done, x skipped)
 
+Changes for r1.1.1 (Future)
+- 
 ________________________________________________________________________________
 
-Changes for r1.0.1 (Future)
-- 
+Changes for r1.1.0 (Current)
++ Add VUSB (+5V) to a through hole that can be used to wire USB pigtail to. USB
+  data and ground are already available.
++ Ensure VAUX (VUSB) jumper is always loaded.  Users must remove that for 1.8V
+  operation.
 
 ________________________________________________________________________________
 

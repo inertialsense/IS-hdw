@@ -18,10 +18,10 @@ RevisionNamingSchemeGUID=
 Name=IK-1.OutJob
 Description=
 TargetOutputMedium=PCB - Manufacturing Files
-VariantName=IS-IK-r1.0.0-GPX-1-0
+VariantName=IS-IK-r1.1.0-IMX-6-0
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=IS-HP8710 (HP OfficeJet Pro 8710)
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
 OutputMedium1=Print To Dell Laser Printer 1710
 OutputMedium1_Type=Printer
