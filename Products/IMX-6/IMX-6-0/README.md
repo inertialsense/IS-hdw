@@ -1,22 +1,22 @@
 # IMX-6
 
-![IMX-6](Images/IMX_5.0_400w.jpg)
+![IMX-6](Images/IMX_6.0_400w.jpg)
 
 The **IMX-6**™ is a 10-DOF sensor module consisting of a tactical grade Inertial Measurement Unit (IMU), magnetometer, and barometer. Output includes angular rate, linear acceleration, magnetic vector, and barometric pressure and altitude. IMU calibration consists of bias, scale factor, cross-axis alignment, and temperature compensation. The IMX-6 includes Attitude Heading Reference System (**AHRS**) sensor fusion to estimate roll, pitch, and heading. Adding GNSS input to the IMX-6 enables onboard Inertial Navigation System (**INS**) sensor fusion for roll, pitch, heading, velocity, and position.
 
 ## Features
 
 - **Tactical Grade IMU**
-  - **Gyro: 1.5 °/hr Bias Instability, 0.16 °/√hr ARW**
-  - **Accel: 19 µg Bias Instability, 0.02 m/s/√hr VRW**
+  - **Gyro: 1.3 °/hr Bias Instability, 0.11 °/√hr ARW**
+  - **Accel: 3 µg Bias Instability, 0.012 m/s/√hr VRW**
 - **INS, AHRS**
-  - **Dynamic: 0.04° Roll/Pitch, 0.13° Heading**
+  - **Dynamic: 0.03° Roll/Pitch, 0.09° Heading**
   - **Static: 0.1° Roll/Pitch, 0.5° Heading**
 - **Surface Mount Reflowable (PCB Module)**
-- Up to 1KHz IMU and INS Output Data Rate
+- Up to 1 KHz IMU and 500 Hz INS Output Data Rate
 - Small Form Factor:  15.6 x 12.5 x 2.9 mm
-- Light Weight:  0.8 g
-- Low power consumption:  <110mW
+- Light Weight:  0.9 g
+- Low power consumption:  <110 mW
 - External GNSS Support (Multi-Band)
 - Attitude (Roll, Pitch, Yaw, Quaternions), Velocity, and Position UTC Time Synchronized
 - Triple Redundant IMUs Calibrated for Bias, Scale Factor, Cross-axis Alignment, and G-sensitivity
@@ -53,4 +53,4 @@ Email - support@inertialsense.com
 
 ------
 
-(c) 2014-2022 Inertial Sense, Inc.
+(c) 2014-2026 Inertial Sense, Inc.

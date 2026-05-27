@@ -7,16 +7,16 @@ The **IMX-5**™ is a 10-DOF sensor module consisting of a tactical grade Inerti
 ## Features
 
 - **Tactical Grade IMU**
-  - **Gyro: 1.5 °/hr Bias Instability, 0.16 °/√hr ARW**
+  - **Gyro: 1.7 °/hr Bias Instability, 0.16 °/√hr ARW**
   - **Accel: 19 µg Bias Instability, 0.02 m/s/√hr VRW**
 - **INS, AHRS**
   - **Dynamic: 0.04° Roll/Pitch, 0.13° Heading**
   - **Static: 0.1° Roll/Pitch, 0.5° Heading**
 - **Surface Mount Reflowable (PCB Module)**
-- Up to 1KHz IMU and INS Output Data Rate
+- Up to 1 KHz IMU and 142 Hz INS Output Data Rate
 - Small Form Factor:  15.6 x 12.5 x 2.9 mm
 - Light Weight:  0.8 g
-- Low power consumption:  <110mW
+- Low power consumption:  <110 mW
 - External GNSS Support (Multi-Band)
 - Attitude (Roll, Pitch, Yaw, Quaternions), Velocity, and Position UTC Time Synchronized
 - Triple Redundant IMUs Calibrated for Bias, Scale Factor, Cross-axis Alignment, and G-sensitivity
