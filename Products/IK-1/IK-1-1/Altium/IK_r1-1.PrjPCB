@@ -44,7 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=IS-IK-r1.1.0-IMX-6-0
+CurrentVariant=IS-IK-r1.1.1-IMX-6-0
 
 [Preferences]
 PrefsVaultGUID=
@@ -358,7 +358,7 @@ DocumentUniqueId=XHBUPFAT
 
 [ProjectVariant1]
 UniqueId=4147C384-7571-4701-981A-0C224DD0BE70
-Description=IS-IK-r1.1.0-GPX-1-0
+Description=IS-IK-r1.1.1-GPX-1-0
 AllowFabrication=0
 ParameterCount=0
 VariationCount=5
@@ -366,18 +366,18 @@ Variation1=Designator=H1|UniqueId=\IERPDYQT|Kind=1|AlternatePart=
 Variation2=Designator=H3|UniqueId=\ZBKHAGYY|Kind=1|AlternatePart=
 Variation3=Designator=H4|UniqueId=\KXWPPWZQ|Kind=1|AlternatePart=
 Variation4=Designator=H2|UniqueId=\UIYMRHRH|Kind=1|AlternatePart=
-Variation5=Designator=U2|UniqueId=\KNHREIZE|Kind=0|AlternatePart=
+Variation5=Designator=U1|UniqueId=\KNHREIZE|Kind=0|AlternatePart=
 ParamVariation1=ParameterName=Manufacturer Part Number|VariantValue=IS-GPX-1
-ParamDesignator1=U2
+ParamDesignator1=U1
 ParamVariation2=ParameterName=Supplier Part Number 1|VariantValue=IS-GPX-1
-ParamDesignator2=U2
+ParamDesignator2=U1
 ParamVariation3=ParameterName=Description|VariantValue=Inertial Sense GPX
-ParamDesignator3=U2
+ParamDesignator3=U1
 ParamVariationCount=3
 
 [ProjectVariant2]
 UniqueId=A5428F82-C62F-4E41-B198-A7F940D0888A
-Description=IS-IK-r1.1.0-IMX-6-0
+Description=IS-IK-r1.1.1-IMX-6-0
 AllowFabrication=0
 ParameterCount=0
 VariationCount=10
@@ -398,36 +398,36 @@ Path=..\..\Resources\Library_DB_Component_Files\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=AddressLine1
-Value=3000 S. Sierra Vista Way
+Name=ProjectTitle
+Value=IK Breadboard Adapter
 
 [Parameter2]
-Name=AddressLine2
-Value=Provo, UT 84606
+Name=PcbRevision
+Value=1.1.1
 
 [Parameter3]
-Name=AddressLine3
-Value=info@interialsense.com
+Name=PcbPartNumber
+Value=IS-IK-r1-1-1
 
 [Parameter4]
-Name=AddressLine4
-Value=
-
-[Parameter5]
 Name=Company
 Value=Inertial Sense, Inc.
 
+[Parameter5]
+Name=AddressLine4
+Value=
+
 [Parameter6]
-Name=PcbPartNumber
-Value=IS-IK-r1-1
+Name=AddressLine3
+Value=info@interialsense.com
 
 [Parameter7]
-Name=PcbRevision
-Value=1.1.0
+Name=AddressLine2
+Value=Provo, UT 84606
 
 [Parameter8]
-Name=ProjectTitle
-Value=IK Breadboard Adapter
+Name=AddressLine1
+Value=3000 S. Sierra Vista Way
 
 [Configuration1]
 Name=Default Configuration
