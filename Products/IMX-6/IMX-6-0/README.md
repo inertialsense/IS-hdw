@@ -7,8 +7,8 @@ The **IMX-6**™ is a 10-DOF sensor module consisting of a tactical grade Inerti
 ## Features
 
 - **Tactical Grade IMU**
-  - **Gyro: 1.3 °/hr Bias Instability, 0.11 °/√hr ARW**
-  - **Accel: 3 µg Bias Instability, 0.012 m/s/√hr VRW**
+  - **Gyro: 1.5 °/hr Bias Instability, 0.10 °/√hr ARW**
+  - **Accel: 2.8 µg Bias Instability, 0.013 m/s/√hr VRW**
 - **INS, AHRS**
   - **Dynamic: 0.03° Roll/Pitch, 0.09° Heading**
   - **Static: 0.1° Roll/Pitch, 0.5° Heading**

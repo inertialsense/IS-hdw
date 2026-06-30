@@ -1,19 +1,21 @@
-# RUG-3-IMX-5	(Rugged-3)
+# RUG-4-Dual	(Rugged-4 Dual)
 
 <center>
 
-![RUG-3-IMX-5](Images/rug-3.0-g0.png)
+![RUG-4-Dual](Images/rug-4.0-g2.png)
 
 <center/>
 
-The **RUG-3-IMX-5** adds a rugged aluminum enclosure and RS232, RS485, and CAN bus to the IMX-5.  Addition of an external GNSS receiver enables the onboard Inertial Navigation System (INS) sensor fusion for roll, pitch, heading, velocity, and position.  
+The **RUG-4-Dual** adds a rugged aluminum enclosure and RS232, RS485, and CAN bus to the **IMX-6**. The **RUG-4-RTK** includes a multi-frequency GNSS receiver with RTK precision position enabling INS sensor fusion for roll, pitch, heading, velocity, and position. The **RUG-4-Dual** includes two multi-frequency GNSS receivers with RTK precision position and dual GNSS heading/compass. 
 
 ## Features
 
-- **Tactical Grade IMU (w/ IMU-5)**
-  - **Gyro: 2.0 °/hr Bias Instability, 0.23 °/√hr ARW**
-  - **Accel: 27 µg Bias Instability, 0.020 m/s/√hr VRW**
-- **High Accuracy INS (w/ IMU-5):  0.03° Roll/Pitch, 0.1° Dynamic Heading**
+- **Tactical Grade IMU**
+  - **Gyro: 1.5 °/hr Bias Instability, 0.10 °/√hr ARW**
+  - **Accel: 2.8 µg Bias Instability, 0.013 m/s/√hr VRW**
+- **INS, AHRS**
+  - **Dynamic: 0.03° Roll/Pitch, 0.09° Heading**
+  - **Static: 0.1° Roll/Pitch, 0.5° Heading**
 - Up to 1KHz IMU and INS Output Data Rate
 - Dual onboard multi-band (L1/L2/E5) GNSS receivers
 - Dual MMCX antenna ports for GPS compassing
@@ -22,7 +24,7 @@ The **RUG-3-IMX-5** adds a rugged aluminum enclosure and RS232, RS485, and CAN b
 - Low power consumption:  <1500mW
 - UART x3, RS232, RS485, CAN, and SPI interfaces
 - Integrated CAN and RS232 / RS485 transceivers
-- Voltage regulation for 3.3V - 17V input
+- Voltage regulation for 3.1V - 23V input (42V with R1 jumper)
 
 ## Applications
 

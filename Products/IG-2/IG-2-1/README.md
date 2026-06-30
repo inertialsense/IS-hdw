@@ -7,8 +7,8 @@ The InertialSense IG-2.1 module combines the IMX-6 and GPX-1 dual multi-band GNS
 ## Features
 
 - **Tactical Grade IMU (w/ IMX-6)**
-  - **Gyro: 1.5 °/hr Bias Instability, 0.16 °/√hr ARW**
-  - **Accel: 19 μg Bias Instability, 0.02 m/s/√hr VRW**
+  - **Gyro: 1.5 °/hr Bias Instability, 0.10 °/√hr ARW**
+  - **Accel: 2.8 µg Bias Instability, 0.013 m/s/√hr VRW**
 - **High Accuracy INS (w/ IMX-6):  0.03° Roll/Pitch, 0.1° Dynamic Heading**
 - Up to 1KHz IMU and INS Output Data Rate
 - Dual onboard multi-band (L1/L5) GNSS receivers
