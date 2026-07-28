@@ -7,8 +7,8 @@ The **IMX-5**™ is a 10-DOF sensor module consisting of a tactical grade Inerti
 ## Features
 
 - **Tactical Grade IMU**
-  - **Gyro: 1.7 °/hr Bias Instability, 0.16 °/√hr ARW**
-  - **Accel: 19 µg Bias Instability, 0.02 m/s/√hr VRW**
+  - **Gyro: 2.0 °/hr Bias Instability, 0.23 °/√hr ARW**
+  - **Accel: 27 µg Bias Instability, 0.020 m/s/√hr VRW**
 - **INS, AHRS**
   - **Dynamic: 0.04° Roll/Pitch, 0.13° Heading**
   - **Static: 0.1° Roll/Pitch, 0.5° Heading**
@@ -53,4 +53,4 @@ Email - support@inertialsense.com
 
 ------
 
-(c) 2014-2022 Inertial Sense, Inc.
+(c) 2014-2026 Inertial Sense, Inc.

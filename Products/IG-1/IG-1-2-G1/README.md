@@ -54,4 +54,4 @@ Email - support@inertialsense.com
 
 ------
 
-(c) 2014-2022 Inertial Sense, Inc.
+(c) 2014-2026 Inertial Sense, Inc.
