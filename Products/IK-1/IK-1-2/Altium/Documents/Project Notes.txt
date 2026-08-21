@@ -1,0 +1,31 @@
+IS-IK-r1.2.0 Project Notes   (- to do, + done, x skipped)
+
+Changes for r1.2.1 (Future)
+-
+
+________________________________________________________________________________
+
+Changes for r1.2.0 (Current)
++ Fixed VSUB (+5V) through hole connection point that was incorrectly connected
+  to ground.
++ Clean up design rules.
+
+________________________________________________________________________________
+
+Changes for r1.1.1
++ Fixed U2 USB TVS footprint.
++ Added keepout around USB-C connector alignment pins.
+
+________________________________________________________________________________
+
+Changes for r1.1.0 (Current)
++ Add VUSB (+5V) to a through hole that can be used to wire USB pigtail to. USB
+  data and ground are already available.
++ Ensure VAUX (VUSB) jumper is always loaded.  Users must remove that for 1.8V
+  operation.
+
+________________________________________________________________________________
+
+Changes for r1.0.0 (Current)
+- 
+
