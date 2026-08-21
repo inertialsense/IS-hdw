@@ -1,7 +1,20 @@
-IS-IK-r1.1.0 Project Notes   (- to do, + done, x skipped)
+IS-IK-r1.2.0 Project Notes   (- to do, + done, x skipped)
 
-Changes for r1.1.1 (Future)
-- 
+Changes for r1.2.1 (Future)
+-
+
+________________________________________________________________________________
+
+Changes for r1.2.0 (Current)
++ Fixed VSUB (+5V) through hole connection point that was incorrectly connected
+  to ground.
+
+________________________________________________________________________________
+
+Changes for r1.1.1
++ Fixed U2 USB TVS footprint.
++ Added keepout around USB-C connector alignment pins.
+
 ________________________________________________________________________________
 
 Changes for r1.1.0 (Current)
