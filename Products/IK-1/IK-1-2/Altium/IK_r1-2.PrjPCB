@@ -255,7 +255,7 @@ DocumentUniqueId=MLYEYRDE
 
 [ProjectVariant1]
 UniqueId=4147C384-7571-4701-981A-0C224DD0BE70
-Description=IS-IK-r1.2.0-GPX-1-0
+Description=IS-IK-r1.2.1-GPX-1-0
 AllowFabrication=0
 ParameterCount=0
 VariationCount=5
@@ -274,7 +274,7 @@ ParamVariationCount=3
 
 [ProjectVariant2]
 UniqueId=A5428F82-C62F-4E41-B198-A7F940D0888A
-Description=IS-IK-r1.2.0-IMX-6-0
+Description=IS-IK-r1.2.1-IMX-6-0
 AllowFabrication=0
 ParameterCount=0
 VariationCount=10

@@ -1,11 +1,16 @@
-IS-IK-r1.2.0 Project Notes   (- to do, + done, x skipped)
+IS-IK-r1.2.1 Project Notes   (- to do, + done, x skipped)
 
-Changes for r1.2.1 (Future)
+Changes for r1.2.2 (Future)
 -
 
 ________________________________________________________________________________
 
-Changes for r1.2.0 (Current)
+Changes for r1.2.1 (Current)
++ Minor layout changes to address polygon pour over same net issue.
+
+________________________________________________________________________________
+
+Changes for r1.2.0
 + Fixed VSUB (+5V) through hole connection point that was incorrectly connected
   to ground.
 + Clean up design rules.
