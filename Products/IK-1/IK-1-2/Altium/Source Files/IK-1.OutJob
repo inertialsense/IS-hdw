@@ -15,13 +15,13 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=IK-1.OutJob
+Name=
 Description=
 TargetOutputMedium=Assembly - Manufacturing Files
-VariantName=IS-IK-r1.2.0-IMX-6-0
+VariantName=IS-IK-r1.2.1-GPX-1-0
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=IS-HP8710 (HP OfficeJet Pro 8710)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print To Dell Laser Printer 1710
 OutputMedium1_Type=Printer
@@ -764,7 +764,7 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\WaltJohnson\hdw\IS-hdw\Products\IK-1\IK-1-2\Altium\Manufacturing\VariantName_PCB\
+OutputFilePath3=C:\Users\tmcd2\HardwareRepo\IS-hdw\Products\IK-1\IK-1-2\Altium\Manufacturing\VariantName_PCB\
 ReleaseManaged3=0
 OutputBasePath3=Manufacturing\
 OutputPathMedia3==VariantName +"_PCB"
@@ -828,7 +828,7 @@ ShowComponentParameters5=1
 GlobalBookmarks5=0
 PDFACompliance5=Disabled
 PDFVersion5=Default
-OutputFilePath6=C:\Users\WaltJohnson\hdw\IS-hdw\Products\IK-1\IK-1-2\Altium\Manufacturing\VariantName_Assembly\
+OutputFilePath6=C:\Users\tmcd2\HardwareRepo\IS-hdw\Products\IK-1\IK-1-2\Altium\Manufacturing\VariantName_Assembly\
 ReleaseManaged6=0
 OutputBasePath6=Manufacturing\
 OutputPathMedia6==VariantName +"_Assembly"
@@ -909,7 +909,7 @@ PDFVersion8=Default
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\_IS\IS-hdw\altium\Projects\INS_AHRS\RUG_r1-1\Manufacturing\VariantName_PCB\
 OpenOutputs2=0
-RelativeOutputPath3=C:\Users\WaltJohnson\hdw\IS-hdw\Products\IK-1\IK-1-2\Altium\Manufacturing\VariantName_PCB\
+RelativeOutputPath3=C:\Users\tmcd2\HardwareRepo\IS-hdw\Products\IK-1\IK-1-2\Altium\Manufacturing\VariantName_PCB\
 OpenOutputs3=0
 AddToProject3=0
 TimestampFolder3=0
@@ -923,7 +923,7 @@ RelativeOutputPath4=C:\_Walt\Altium\Projects\Mentor\Mentor_r1-0\Project Outputs\
 OpenOutputs4=1
 RelativeOutputPath5=C:\_IS\IS-hdw\altium\Projects\INS_AHRS\RUG_r1-1\Manufacturing\VariantName_Assembly\
 OpenOutputs5=0
-RelativeOutputPath6=C:\Users\WaltJohnson\hdw\IS-hdw\Products\IK-1\IK-1-2\Altium\Manufacturing\VariantName_Assembly\
+RelativeOutputPath6=C:\Users\tmcd2\HardwareRepo\IS-hdw\Products\IK-1\IK-1-2\Altium\Manufacturing\VariantName_Assembly\
 OpenOutputs6=0
 AddToProject6=0
 TimestampFolder6=0
