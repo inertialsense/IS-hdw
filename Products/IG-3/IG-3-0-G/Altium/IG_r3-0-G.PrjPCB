@@ -44,7 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=IS-IK-r1.2.1-GPX-1-0
+CurrentVariant=IS-IG-r3.0.0-G
 
 [Preferences]
 PrefsVaultGUID=
@@ -102,6 +102,40 @@ GenerateClassCluster=0
 DocumentUniqueId=OWJVXBEW
 
 [Document4]
+DocumentPath=..\..\IMX-5-0\PCB_Library\Altium\IS-IMX-5.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BGTMVLAI
+
+[Document5]
+DocumentPath=..\..\IMX-5-0\PCB_Library\Altium\IS-IMX-5.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HJLOUIFJ
+
+[Document6]
 DocumentPath=Documents\Project Notes.txt
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -118,8 +152,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document5]
-DocumentPath=Source Files\IK-1.PCBDOC
+[Document7]
+DocumentPath=..\..\..\..\..\hdw\altium\Libraries\General.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -133,10 +167,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=OQPKASFM
+DocumentUniqueId=SOECQSHA
 
-[Document6]
-DocumentPath=Source Files\IK-1.OutJob
+[Document8]
+DocumentPath=..\..\..\..\..\hdw\altium\Libraries\General.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -147,12 +181,148 @@ DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MLYEYRDE
+
+[Document9]
+DocumentPath=..\..\..\..\..\hdw\altium\Libraries\Sensors.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ACYGODJL
+
+[Document10]
+DocumentPath=..\..\..\..\..\hdw\altium\Libraries\Sensors.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XHBUPFAT
+
+[Document11]
+DocumentPath=Source Files\IG-3.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
+[Document12]
+DocumentPath=Source Files\IG-3.PCBDOC
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=OQPKASFM
+
+[Document13]
+DocumentPath=..\..\GPX-1-0\PCB_Library\Altium\IS-GPX-1.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document14]
+DocumentPath=..\..\GPX-1-0\PCB_Library\Altium\IS-GPX-1.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BVBEZHVO
+
+[Document15]
+DocumentPath=..\..\..\..\..\hdw\altium\Libraries\Connectors.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=GIOBICBC
+
+[Document16]
+DocumentPath=..\..\..\..\..\hdw\altium\Libraries\Connectors.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=AQUBFVFW
+
+[Document17]
 DocumentPath=..\..\..\IMX-6\IMX-6-0\PCB_Library\Altium\IS-IMX-6.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -169,7 +339,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BGTMVLAI
 
-[Document8]
+[Document18]
 DocumentPath=..\..\..\IMX-6\IMX-6-0\PCB_Library\Altium\IS-IMX-6.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -186,42 +356,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HJLOUIFJ
 
-[Document9]
-DocumentPath=..\..\..\..\..\altium\Libraries\Connectors.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=GIOBICBC
-
-[Document10]
-DocumentPath=..\..\..\..\..\altium\Libraries\Connectors.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=AQUBFVFW
-
-[Document11]
-DocumentPath=..\..\..\..\..\altium\Libraries\General.PcbLib
+[Document19]
+DocumentPath=..\..\..\..\..\hdw\altium\Libraries\ICs.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -237,8 +373,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
-DocumentPath=..\..\..\..\..\altium\Libraries\General.SchLib
+[Document20]
+DocumentPath=..\..\..\..\..\hdw\altium\Libraries\ICs.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -252,43 +388,16 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=MLYEYRDE
+DocumentUniqueId=QTPJLAUX
 
 [ProjectVariant1]
-UniqueId=4147C384-7571-4701-981A-0C224DD0BE70
-Description=IS-IK-r1.2.1-GPX-1-0
-AllowFabrication=0
-ParameterCount=0
-VariationCount=5
-Variation1=Designator=H1|UniqueId=\IERPDYQT|Kind=1|AlternatePart=
-Variation2=Designator=H3|UniqueId=\ZBKHAGYY|Kind=1|AlternatePart=
-Variation3=Designator=H4|UniqueId=\KXWPPWZQ|Kind=1|AlternatePart=
-Variation4=Designator=H2|UniqueId=\UIYMRHRH|Kind=1|AlternatePart=
-Variation5=Designator=U1|UniqueId=\KNHREIZE|Kind=0|AlternatePart=
-ParamVariation1=ParameterName=Manufacturer Part Number|VariantValue=IS-GPX-1
-ParamDesignator1=U1
-ParamVariation2=ParameterName=Supplier Part Number 1|VariantValue=IS-GPX-1
-ParamDesignator2=U1
-ParamVariation3=ParameterName=Description|VariantValue=Inertial Sense GPX
-ParamDesignator3=U1
-ParamVariationCount=3
-
-[ProjectVariant2]
 UniqueId=A5428F82-C62F-4E41-B198-A7F940D0888A
-Description=IS-IK-r1.2.1-IMX-6-0
+Description=IS-IG-r3.0.0-G
 AllowFabrication=0
 ParameterCount=0
-VariationCount=10
-Variation1=Designator=J1|UniqueId=\BMMKJXER|Kind=1|AlternatePart=
-Variation2=Designator=I1|UniqueId=\JVYEOCAV|Kind=1|AlternatePart=
-Variation3=Designator=I4|UniqueId=\MCAMATFA|Kind=1|AlternatePart=
-Variation4=Designator=D2|UniqueId=\XVJWINYI|Kind=1|AlternatePart=
-Variation5=Designator=D1|UniqueId=\AHRVFVFA|Kind=1|AlternatePart=
-Variation6=Designator=J2|UniqueId=\YJYFBWTO|Kind=1|AlternatePart=
-Variation7=Designator=H3|UniqueId=\ZBKHAGYY|Kind=1|AlternatePart=
-Variation8=Designator=H4|UniqueId=\KXWPPWZQ|Kind=1|AlternatePart=
-Variation9=Designator=H2|UniqueId=\UIYMRHRH|Kind=1|AlternatePart=
-Variation10=Designator=H1|UniqueId=\IERPDYQT|Kind=1|AlternatePart=
+VariationCount=2
+Variation1=Designator=H2|UniqueId=\PUPKWGEP|Kind=1|AlternatePart=
+Variation2=Designator=H3|UniqueId=\XZJQOGRU|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [SearchPath1]
@@ -317,15 +426,15 @@ Value=Inertial Sense, Inc.
 
 [Parameter6]
 Name=PcbPartNumber
-Value=IS-IK-r1-2-0
+Value=IS-IG-r3.0-G
 
 [Parameter7]
 Name=PcbRevision
-Value=1.2.0
+Value=3.0.0
 
 [Parameter8]
 Name=ProjectTitle
-Value=IK Breadboard Adapter
+Value=IMX w/ GPX Module
 
 [Configuration1]
 Name=Default Configuration
@@ -520,29 +629,29 @@ OutputName1=Composite Drawing
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=4.10|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=3.41|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration1_Name1=OutputConfigurationParameter1
-Configuration1_Item1=PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=C:\_IS\hdw\IS-hdw\Products\IK-1-0\Altium\Source Files\IK-1.PCBDOC
+Configuration1_Item1=PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
 Configuration1_Name2=OutputConfigurationParameter2
-Configuration1_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\_IS\hdw\IS-hdw\Products\IK-1-0\Altium\Source Files\IK-1.PCBDOC
+Configuration1_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
 Configuration1_Name3=OutputConfigurationParameter3
-Configuration1_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\_IS\hdw\IS-hdw\Products\IK-1-0\Altium\Source Files\IK-1.PCBDOC
+Configuration1_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 Configuration1_Name4=OutputConfigurationParameter4
-Configuration1_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\_IS\hdw\IS-hdw\Products\IK-1-0\Altium\Source Files\IK-1.PCBDOC
+Configuration1_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 Configuration1_Name5=OutputConfigurationParameter5
-Configuration1_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\_IS\hdw\IS-hdw\Products\IK-1-0\Altium\Source Files\IK-1.PCBDOC
+Configuration1_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 Configuration1_Name6=OutputConfigurationParameter6
-Configuration1_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\_IS\hdw\IS-hdw\Products\IK-1-0\Altium\Source Files\IK-1.PCBDOC
+Configuration1_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 Configuration1_Name7=OutputConfigurationParameter7
-Configuration1_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\_IS\hdw\IS-hdw\Products\IK-1-0\Altium\Source Files\IK-1.PCBDOC
+Configuration1_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 Configuration1_Name8=OutputConfigurationParameter8
-Configuration1_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\_IS\hdw\IS-hdw\Products\IK-1-0\Altium\Source Files\IK-1.PCBDOC
+Configuration1_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 Configuration1_Name9=OutputConfigurationParameter9
-Configuration1_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\_IS\hdw\IS-hdw\Products\IK-1-0\Altium\Source Files\IK-1.PCBDOC
+Configuration1_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 Configuration1_Name10=OutputConfigurationParameter10
-Configuration1_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=KeepOutLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\_IS\hdw\IS-hdw\Products\IK-1-0\Altium\Source Files\IK-1.PCBDOC
+Configuration1_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=KeepOutLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 Configuration1_Name11=OutputConfigurationParameter11
-Configuration1_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\_IS\hdw\IS-hdw\Products\IK-1-0\Altium\Source Files\IK-1.PCBDOC
+Configuration1_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 OutputType2=PCB 3D Print
 OutputName2=PCB 3D Prints
 OutputDocumentPath2=
@@ -586,13 +695,7 @@ OutputName8=PCBLIB Prints
 OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=22.63|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-Configuration8_Name1=OutputConfigurationParameter1
-Configuration8_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=C:\Users\tmcd2\OneDrive\Desktop\temp\Hardware Design\IG_BB_r1-0\PCB_Library\Altium\IS-IG-BB.PcbLib
-Configuration8_Name2=OutputConfigurationParameter2
-Configuration8_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\tmcd2\OneDrive\Desktop\temp\Hardware Design\IG_BB_r1-0\PCB_Library\Altium\IS-IG-BB.PcbLib
-Configuration8_Name3=OutputConfigurationParameter3
-Configuration8_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\tmcd2\OneDrive\Desktop\temp\Hardware Design\IG_BB_r1-0\PCB_Library\Altium\IS-IG-BB.PcbLib
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType9=PCBDrawing
 OutputName9=Draftsman
 OutputDocumentPath9=
@@ -1347,8 +1450,8 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=Connectors.SchLib
-ComponentDesignItemID0=Hdr - 1pin
-ComponentSymbolReference0=Hdr - 1pin
+ComponentDesignItemID0=Hdr - 14pin - mount
+ComponentSymbolReference0=Hdr - 14pin - mount
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
@@ -1359,8 +1462,8 @@ ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
 ComponentLibraryIdentifier2=Connectors.SchLib
-ComponentDesignItemID2=USB4105-GF-A
-ComponentSymbolReference2=USB4105-GF-A
+ComponentDesignItemID2=USB-TYPEAB-4GND
+ComponentSymbolReference2=USB-TYPEAB-4GND
 ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
@@ -1401,8 +1504,8 @@ ComponentUpdate8=1
 ComponentIsDeviceSheet8=0
 ComponentLibIdentifierKind9=Library Name And Type
 ComponentLibraryIdentifier9=ICs.SchLib
-ComponentDesignItemID9=TPD3E001
-ComponentSymbolReference9=TPD3E001
+ComponentDesignItemID9=VBUS053
+ComponentSymbolReference9=VBUS053
 ComponentUpdate9=1
 ComponentIsDeviceSheet9=0
 ComponentLibIdentifierKind10=Library Name And Type
@@ -1412,15 +1515,15 @@ ComponentSymbolReference10=IS-GPX-1.0
 ComponentUpdate10=1
 ComponentIsDeviceSheet10=0
 ComponentLibIdentifierKind11=Library Name And Type
-ComponentLibraryIdentifier11=IS-IG-BB.SchLib
-ComponentDesignItemID11=Hdr - 11pin
-ComponentSymbolReference11=Hdr - 11pin
+ComponentLibraryIdentifier11=IS-IMX-5.SchLib
+ComponentDesignItemID11=IS-IMX-5.0
+ComponentSymbolReference11=IS-IMX-5.0
 ComponentUpdate11=1
 ComponentIsDeviceSheet11=0
 ComponentLibIdentifierKind12=Library Name And Type
-ComponentLibraryIdentifier12=IS-IG-BB.SchLib
-ComponentDesignItemID12=Hdr - 5pin
-ComponentSymbolReference12=Hdr - 5pin
+ComponentLibraryIdentifier12=Sensors.SchLib
+ComponentDesignItemID12=IG_1.1_LGA
+ComponentSymbolReference12=IG_1.1_LGA
 ComponentUpdate12=1
 ComponentIsDeviceSheet12=0
 FullReplace=0
@@ -1438,7 +1541,7 @@ RemoveModels=1
 UpdateCurrentModels=1
 ParameterName0=Applications
 ParameterUpdate0=1
-ParameterName1=Availability
+ParameterName1=Bidirectional Channels
 ParameterUpdate1=1
 ParameterName2=Body Finish
 ParameterUpdate2=1
@@ -1450,121 +1553,121 @@ ParameterName5=Cable Group
 ParameterUpdate5=1
 ParameterName6=Capacitance
 ParameterUpdate6=1
-ParameterName7=Case Code (Imperial)
+ParameterName7=Capacitance @ Frequency
 ParameterUpdate7=1
-ParameterName8=Case Code (Metric)
+ParameterName8=Case Code (Imperial)
 ParameterUpdate8=1
-ParameterName9=Case/Package
+ParameterName9=Case Code (Metric)
 ParameterUpdate9=1
-ParameterName10=Category
+ParameterName10=Case/Package
 ParameterUpdate10=1
-ParameterName11=Center Contact Material
+ParameterName11=Category
 ParameterUpdate11=1
-ParameterName12=Center Contact Plating
+ParameterName12=Center Contact Material
 ParameterUpdate12=1
-ParameterName13=Clamping Voltage
+ParameterName13=Center Contact Plating
 ParameterUpdate13=1
-ParameterName14=Comment
+ParameterName14=Clamping Voltage
 ParameterUpdate14=1
-ParameterName15=Component Kind
+ParameterName15=Colour
 ParameterUpdate15=1
-ParameterName16=ComponentLink1Description
+ParameterName16=Comment
 ParameterUpdate16=1
-ParameterName17=ComponentLink1URL
+ParameterName17=Component Kind
 ParameterUpdate17=1
-ParameterName18=ComponentLink2Description
+ParameterName18=ComponentLink1Description
 ParameterUpdate18=1
-ParameterName19=ComponentLink2URL
+ParameterName19=ComponentLink1URL
 ParameterUpdate19=1
-ParameterName20=ComponentLink3Description
+ParameterName20=ComponentLink2Description
 ParameterUpdate20=1
-ParameterName21=ComponentLink3URL
+ParameterName21=ComponentLink2URL
 ParameterUpdate21=1
-ParameterName22=ComponentLink4Description
+ParameterName22=ComponentLink3Description
 ParameterUpdate22=1
-ParameterName23=ComponentLink4URL
+ParameterName23=ComponentLink3URL
 ParameterUpdate23=1
-ParameterName24=ComponentLink5Description
+ParameterName24=ComponentLink4Description
 ParameterUpdate24=1
-ParameterName25=ComponentLink5URL
+ParameterName25=ComponentLink4URL
 ParameterUpdate25=1
-ParameterName26=ComponentLink6Description
+ParameterName26=ComponentLink5Description
 ParameterUpdate26=1
-ParameterName27=ComponentLink6URL
+ParameterName27=ComponentLink5URL
 ParameterUpdate27=1
-ParameterName28=ComponentLink7Description
+ParameterName28=Composition
 ParameterUpdate28=1
-ParameterName29=ComponentLink7URL
+ParameterName29=Connector Style
 ParameterUpdate29=1
-ParameterName30=ComponentLink8Description
+ParameterName30=Connector Type
 ParameterUpdate30=1
-ParameterName31=ComponentLink8URL
+ParameterName31=Contact Material
 ParameterUpdate31=1
-ParameterName32=Composition
+ParameterName32=Contact Plating
 ParameterUpdate32=1
-ParameterName33=Connector Style
+ParameterName33=Contact Termination
 ParameterUpdate33=1
-ParameterName34=Connector Type
+ParameterName34=Core Material
 ParameterUpdate34=1
-ParameterName35=Construction
+ParameterName35=Current - Output
 ParameterUpdate35=1
-ParameterName36=Contact Termination
+ParameterName36=Current - Peak Pulse (10/1000µs)
 ParameterUpdate36=1
-ParameterName37=Core Material
+ParameterName37=Current Rating
 ParameterUpdate37=1
-ParameterName38=Current - Output
+ParameterName38=DC Resistance (DCR)
 ParameterUpdate38=1
-ParameterName39=Current Rating
+ParameterName39=Depth
 ParameterUpdate39=1
-ParameterName40=DC Current
+ParameterName40=Description
 ParameterUpdate40=1
-ParameterName41=DC Resistance (DCR)
+ParameterName41=Dielectric
 ParameterUpdate41=1
-ParameterName42=Depth
+ParameterName42=Dielectric Material
 ParameterUpdate42=1
-ParameterName43=Description
+ParameterName43=Fastening Type
 ParameterUpdate43=1
-ParameterName44=Dielectric
+ParameterName44=Features
 ParameterUpdate44=1
-ParameterName45=Dielectric Material
+ParameterName45=Filter Type
 ParameterUpdate45=1
-ParameterName46=Direction
+ParameterName46=Flammability Rating
 ParameterUpdate46=1
-ParameterName47=Fastening Type
+ParameterName47=Frequency - Max
 ParameterUpdate47=1
-ParameterName48=Features
+ParameterName48=Frequency - Switching
 ParameterUpdate48=1
-ParameterName49=Frequency - Max
+ParameterName49=Gender
 ParameterUpdate49=1
-ParameterName50=Frequency - Switching
+ParameterName50=Height
 ParameterUpdate50=1
-ParameterName51=Height
+ParameterName51=Height - Seated (Max)
 ParameterUpdate51=1
-ParameterName52=Height - Seated (Max)
+ParameterName52=Height (Max)
 ParameterUpdate52=1
 ParameterName53=Housing Color
 ParameterUpdate53=1
-ParameterName54=Impedance
+ParameterName54=Housing Material
 ParameterUpdate54=1
-ParameterName55=Inductance
+ParameterName55=Impedance
 ParameterUpdate55=1
-ParameterName56=Inductance Tolerance
+ParameterName56=Impedance @ Frequency
 ParameterUpdate56=1
-ParameterName57=Ingress Protection
+ParameterName57=Inductance
 ParameterUpdate57=1
-ParameterName58=Interface
+ParameterName58=Ingress Protection
 ParameterUpdate58=1
-ParameterName59=LatestRevisionDate
+ParameterName59=Insulation Resistance
 ParameterUpdate59=1
-ParameterName60=LatestRevisionNote
+ParameterName60=LatestRevisionDate
 ParameterUpdate60=1
-ParameterName61=Lead Free
+ParameterName61=LatestRevisionNote
 ParameterUpdate61=1
-ParameterName62=Lead Spacing
+ParameterName62=Lead Free
 ParameterUpdate62=1
-ParameterName63=Lead Style
+ParameterName63=Lead Spacing
 ParameterUpdate63=1
-ParameterName64=Leakage Current
+ParameterName64=Lead Style
 ParameterUpdate64=1
 ParameterName65=Length
 ParameterUpdate65=1
@@ -1574,164 +1677,132 @@ ParameterName67=Manufacturer
 ParameterUpdate67=1
 ParameterName68=Manufacturer Part Number
 ParameterUpdate68=1
-ParameterName69=Max DC Current
+ParameterName69=Max Operating Temperature
 ParameterUpdate69=1
-ParameterName70=Max Operating Temperature
+ParameterName70=Max Voltage Rating (AC)
 ParameterUpdate70=1
-ParameterName71=Max Power Dissipation
+ParameterName71=Min Operating Temperature
 ParameterUpdate71=1
-ParameterName72=Max Supply Current
+ParameterName72=Minimum Order Quantity
 ParameterUpdate72=1
-ParameterName73=Max Supply Voltage
+ParameterName73=Mount
 ParameterUpdate73=1
-ParameterName74=Max Supply Voltage (DC)
+ParameterName74=Mounting Type
 ParameterUpdate74=1
-ParameterName75=MF
+ParameterName75=Number of Contacts
 ParameterUpdate75=1
-ParameterName76=Military Standard
+ParameterName76=Number of Outputs
 ParameterUpdate76=1
-ParameterName77=Min Breakdown Voltage
+ParameterName77=Number of Ports
 ParameterUpdate77=1
-ParameterName78=Min Operating Temperature
+ParameterName78=Number of Terminals
 ParameterUpdate78=1
-ParameterName79=Min Supply Voltage
+ParameterName79=Number of Terminations
 ParameterUpdate79=1
-ParameterName80=Min Supply Voltage (DC)
+ParameterName80=Operating Temperature
 ParameterUpdate80=1
-ParameterName81=Mount
+ParameterName81=Operating Temperature Range
 ParameterUpdate81=1
-ParameterName82=Mounting Type
+ParameterName82=Operating Voltage
 ParameterUpdate82=1
-ParameterName83=Nominal Supply Current
+ParameterName83=Orientation
 ParameterUpdate83=1
-ParameterName84=Number of Bidirectional Channels
+ParameterName84=Output Type
 ParameterUpdate84=1
-ParameterName85=Number of Channels
+ParameterName85=Package / Case
 ParameterUpdate85=1
-ParameterName86=Number of Outputs
+ParameterName86=Package Quantity
 ParameterUpdate86=1
-ParameterName87=Number of Pins
+ParameterName87=Packaging
 ParameterUpdate87=1
-ParameterName88=Number of Terminations
+ParameterName88=Pitch
 ParameterUpdate88=1
-ParameterName89=Operating Supply Voltage
+ParameterName89=Power - Peak Pulse
 ParameterUpdate89=1
-ParameterName90=Operating Temperature
+ParameterName90=Power (Watts)
 ParameterUpdate90=1
-ParameterName91=Output Type
+ParameterName91=Power Line Protection
 ParameterUpdate91=1
-ParameterName92=Package
+ParameterName92=Pricing 1
 ParameterUpdate92=1
-ParameterName93=Package / Case
+ParameterName93=Product Category
 ParameterUpdate93=1
-ParameterName94=Package Quantity
+ParameterName94=Published
 ParameterUpdate94=1
-ParameterName95=Packaging
+ParameterName95=Publisher
 ParameterUpdate95=1
-ParameterName96=Peak Pulse Power
+ParameterName96=PWM Type
 ParameterUpdate96=1
-ParameterName97=Pins
+ParameterName97=Radiation Hardening
 ParameterUpdate97=1
-ParameterName98=Power (Watts)
+ParameterName98=Ratings
 ParameterUpdate98=1
-ParameterName99=Power Line Protection
+ParameterName99=REACH SVHC
 ParameterUpdate99=1
-ParameterName100=Power Rating
+ParameterName100=Reeling
 ParameterUpdate100=1
-ParameterName101=Price
+ParameterName101=Resistance (Ohms)
 ParameterUpdate101=1
-ParameterName102=Pricing
+ParameterName102=RoHS
 ParameterUpdate102=1
-ParameterName103=Pricing 1
+ParameterName103=RoHS - Mouser
 ParameterUpdate103=1
-ParameterName104=Published
+ParameterName104=Series
 ParameterUpdate104=1
-ParameterName105=Publisher
+ParameterName105=Shield Termination
 ParameterUpdate105=1
-ParameterName106=PWM Type
+ParameterName106=Shielding
 ParameterUpdate106=1
-ParameterName107=Radiation Hardening
+ParameterName107=Size / Dimension
 ParameterUpdate107=1
-ParameterName108=Ratings
+ParameterName108=Stock 1
 ParameterUpdate108=1
-ParameterName109=REACH SVHC
+ParameterName109=Supplier 1
 ParameterUpdate109=1
-ParameterName110=Reach SVHC Compliant
+ParameterName110=Supplier Device Package
 ParameterUpdate110=1
-ParameterName111=Resistance (Ohms)
+ParameterName111=Supplier Part Number 1
 ParameterUpdate111=1
-ParameterName112=Resistance Tolerance
+ParameterName112=Synchronous Rectifier
 ParameterUpdate112=1
-ParameterName113=Resistor Type
+ParameterName113=Temperature Coefficient
 ParameterUpdate113=1
-ParameterName114=Reverse Standoff Voltage
+ParameterName114=Termination
 ParameterUpdate114=1
-ParameterName115=RoHS
+ParameterName115=Test Frequency
 ParameterUpdate115=1
-ParameterName116=RoHS Compliant
+ParameterName116=Thickness
 ParameterUpdate116=1
-ParameterName117=Self Resonant Frequency
+ParameterName117=Tolerance
 ParameterUpdate117=1
-ParameterName118=Series
+ParameterName118=Type
 ParameterUpdate118=1
-ParameterName119=Shield Termination
+ParameterName119=Unidirectional Channels
 ParameterUpdate119=1
-ParameterName120=Shielding
+ParameterName120=Value
 ParameterUpdate120=1
-ParameterName121=Size / Dimension
+ParameterName121=Voltage
 ParameterUpdate121=1
-ParameterName122=Stock
+ParameterName122=Voltage - Breakdown (Min)
 ParameterUpdate122=1
-ParameterName123=Stock 1
+ParameterName123=Voltage - Clamping (Max) @ Ipp
 ParameterUpdate123=1
-ParameterName124=Supplier
+ParameterName124=Voltage - Input
 ParameterUpdate124=1
-ParameterName125=Supplier 1
+ParameterName125=Voltage - Output
 ParameterUpdate125=1
-ParameterName126=Supplier Device Package
+ParameterName126=Voltage - Rated
 ParameterUpdate126=1
-ParameterName127=Supplier Part Number
+ParameterName127=Voltage - Reverse Standoff (Typ)
 ParameterUpdate127=1
-ParameterName128=Supplier Part Number 1
+ParameterName128=Voltage Rating
 ParameterUpdate128=1
-ParameterName129=Synchronous Rectifier
+ParameterName129=Voltage Rating (DC)
 ParameterUpdate129=1
-ParameterName130=Technology
+ParameterName130=Weight
 ParameterUpdate130=1
-ParameterName131=Temperature Coefficient
+ParameterName131=Width
 ParameterUpdate131=1
-ParameterName132=Termination
-ParameterUpdate132=1
-ParameterName133=Test Frequency
-ParameterUpdate133=1
-ParameterName134=Thickness
-ParameterUpdate134=1
-ParameterName135=Tolerance
-ParameterUpdate135=1
-ParameterName136=Turn-On Delay Time
-ParameterUpdate136=1
-ParameterName137=Type
-ParameterUpdate137=1
-ParameterName138=Value
-ParameterUpdate138=1
-ParameterName139=Voltage
-ParameterUpdate139=1
-ParameterName140=Voltage - Input
-ParameterUpdate140=1
-ParameterName141=Voltage - Output
-ParameterUpdate141=1
-ParameterName142=Voltage - Rated
-ParameterUpdate142=1
-ParameterName143=Voltage Rating
-ParameterUpdate143=1
-ParameterName144=Voltage Rating (DC)
-ParameterUpdate144=1
-ParameterName145=Weight
-ParameterUpdate145=1
-ParameterName146=Width
-ParameterUpdate146=1
-ParameterName147=Working Voltage
-ParameterUpdate147=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
@@ -1759,135 +1830,165 @@ ModelType7=PCBLIB
 ModelName7=1812
 ModelUpdate7=1
 ModelType8=PCBLIB
-ModelName8=5mmx5mm
+ModelName8=53261-1471
 ModelUpdate8=1
 ModelType9=PCBLIB
-ModelName9=C0402
+ModelName9=53398-1471
 ModelUpdate9=1
 ModelType10=PCBLIB
-ModelName10=C0603
+ModelName10=5mmx5mm
 ModelUpdate10=1
 ModelType11=PCBLIB
-ModelName11=C0805
+ModelName11=BM14B-GHS-TBT(LF)(SN)(N)
 ModelUpdate11=1
 ModelType12=PCBLIB
-ModelName12=C1206
+ModelName12=C0402
 ModelUpdate12=1
 ModelType13=PCBLIB
-ModelName13=D0201
+ModelName13=C0603
 ModelUpdate13=1
 ModelType14=PCBLIB
-ModelName14=D0402
+ModelName14=C0805
 ModelUpdate14=1
 ModelType15=PCBLIB
-ModelName15=D0603
+ModelName15=C1206
 ModelUpdate15=1
 ModelType16=PCBLIB
-ModelName16=D0603B
+ModelName16=D0201
 ModelUpdate16=1
 ModelType17=PCBLIB
-ModelName17=GCT_USB4105-GF-A
+ModelName17=D0402
 ModelUpdate17=1
 ModelType18=PCBLIB
-ModelName18=HEADER-.1IN-1X1
+ModelName18=D0603
 ModelUpdate18=1
 ModelType19=PCBLIB
-ModelName19=Header-.1IN-1x11
+ModelName19=D0603B
 ModelUpdate19=1
 ModelType20=PCBLIB
-ModelName20=Header-.1IN-1x5
+ModelName20=I0201
 ModelUpdate20=1
 ModelType21=PCBLIB
-ModelName21=INDC2520X12N
+ModelName21=I0402
 ModelUpdate21=1
 ModelType22=PCBLIB
-ModelName22=INDC3030X12N
+ModelName22=I0603
 ModelUpdate22=1
 ModelType23=PCBLIB
-ModelName23=INDM102102X50N
+ModelName23=I0805
 ModelUpdate23=1
 ModelType24=PCBLIB
-ModelName24=INDM5552X30N
+ModelName24=IG-1.1-G1_LGA
 ModelUpdate24=1
 ModelType25=PCBLIB
-ModelName25=IS-GPX-1.0
+ModelName25=IG-1.1-G2_LGA
 ModelUpdate25=1
 ModelType26=PCBLIB
-ModelName26=MO-178-AB
+ModelName26=IND0805MULT
 ModelUpdate26=1
 ModelType27=PCBLIB
-ModelName27=P1330
+ModelName27=INDC2520X12N
 ModelUpdate27=1
 ModelType28=PCBLIB
-ModelName28=P1812
+ModelName28=INDC3030X12N
 ModelUpdate28=1
 ModelType29=PCBLIB
-ModelName29=PowerDI-123
+ModelName29=INDM102102X50N
 ModelUpdate29=1
 ModelType30=PCBLIB
-ModelName30=QFN50P160X160X60-6N
+ModelName30=INDM5552X30N
 ModelUpdate30=1
 ModelType31=PCBLIB
-ModelName31=R0201
+ModelName31=INDP5050X22N
 ModelUpdate31=1
 ModelType32=PCBLIB
-ModelName32=R0402
+ModelName32=IS-GPX-1.0
 ModelUpdate32=1
 ModelType33=PCBLIB
-ModelName33=R0603
+ModelName33=IS-IMX-5.0
 ModelUpdate33=1
 ModelType34=PCBLIB
-ModelName34=R0603to0201
+ModelName34=MO-178-AB
 ModelUpdate34=1
 ModelType35=PCBLIB
-ModelName35=R0805
+ModelName35=P1330
 ModelUpdate35=1
 ModelType36=PCBLIB
-ModelName36=R1206
+ModelName36=P1812
 ModelUpdate36=1
 ModelType37=PCBLIB
-ModelName37=RES0201
+ModelName37=PowerDI-123
 ModelUpdate37=1
 ModelType38=PCBLIB
-ModelName38=RF UMC SMD
+ModelName38=QFN50P160X160X60-6N
 ModelUpdate38=1
 ModelType39=PCBLIB
-ModelName39=S-MINI-2P
+ModelName39=R0201
 ModelUpdate39=1
 ModelType40=PCBLIB
-ModelName40=SOD-123
+ModelName40=R0402
 ModelUpdate40=1
 ModelType41=PCBLIB
-ModelName41=SOD-323
+ModelName41=R0603
 ModelUpdate41=1
 ModelType42=PCBLIB
-ModelName42=SOTFL50P160X60-5N
+ModelName42=R0805
 ModelUpdate42=1
 ModelType43=PCBLIB
-ModelName43=SSS-MINI-2P
+ModelName43=R1206
 ModelUpdate43=1
 ModelType44=PCBLIB
-ModelName44=THR-1x1-0.1IN
+ModelName44=RF UMC SMD
 ModelUpdate44=1
+ModelType45=PCBLIB
+ModelName45=SM14B-GHS-TB(LF)(SN)
+ModelUpdate45=1
+ModelType46=PCBLIB
+ModelName46=S-MINI-2P
+ModelUpdate46=1
+ModelType47=PCBLIB
+ModelName47=SOD-123
+ModelUpdate47=1
+ModelType48=PCBLIB
+ModelName48=SOD-323
+ModelUpdate48=1
+ModelType49=PCBLIB
+ModelName49=SSS-MINI-2P
+ModelUpdate49=1
+ModelType50=PCBLIB
+ModelName50=USB Micro AB R/A
+ModelUpdate50=1
+ModelType51=PCBLIB
+ModelName51=USB Micro AB R/A - design
+ModelUpdate51=1
+ModelType52=PCBLIB
+ModelName52=USB Micro AB R/A THR
+ModelUpdate52=1
+ModelType53=PCBLIB
+ModelName53=USB Micro AB R/A THR - design
+ModelUpdate53=1
+ModelType54=PCBLIB
+ModelName54=USB Micro B Vert
+ModelUpdate54=1
 ModelTypeGroup1=SI
 ModelTypeUpdate1=1
-ModelType45=SI
-ModelName45=Cap
-ModelUpdate45=1
-ModelType46=SI
-ModelName46=Res
-ModelUpdate46=1
+ModelType55=SI
+ModelName55=Cap
+ModelUpdate55=1
+ModelType56=SI
+ModelName56=Res
+ModelUpdate56=1
 ModelTypeGroup2=SIM
 ModelTypeUpdate2=1
-ModelType47=SIM
-ModelName47=CAP
-ModelUpdate47=1
-ModelType48=SIM
-ModelName48=RES
-ModelUpdate48=1
-ModelType49=SIM
-ModelName49=SKYDIODE
-ModelUpdate49=1
+ModelType57=SIM
+ModelName57=CAP
+ModelUpdate57=1
+ModelType58=SIM
+ModelName58=RES
+ModelUpdate58=1
+ModelType59=SIM
+ModelName59=SKYDIODE
+ModelUpdate59=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
