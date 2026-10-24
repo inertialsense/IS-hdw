@@ -1,16 +1,16 @@
-# IG-2.1
+# IG-3.0
 
 ![IG-2.1](Images/IG-2.png)
 
-The InertialSense IG-2.1 module combines the IMX-6 and GPX-1 dual multi-band GNSS receiver in a compact surface mount modular form factor. 
+The InertialSense IG-3.0 module combines the IMX-6 and GPX-1 dual multi-band GNSS receiver in a compact surface mount modular form factor. 
 
 ## Features
 
 - **Tactical Grade IMU (w/ IMX-6)**
-  - **Gyro: 1.5 °/hr Bias Instability, 0.10 °/√hr ARW**
-  - **Accel: 2.8 µg Bias Instability, 0.013 m/s/√hr VRW**
+  - **Gyro: 0.9 °/hr Bias Instability, 0.10 °/√hr ARW**
+  - **Accel: 4.0 µg Bias Instability, 0.011 m/s/√hr VRW**
 - **High Accuracy INS (w/ IMX-6):  0.03° Roll/Pitch, 0.1° Dynamic Heading**
-- Up to 1KHz IMU and INS Output Data Rate
+- Up to 2KHz IMU and INS Output Data Rate
 - Dual onboard multi-band (L1/L5) GNSS receivers
 - Dual U.FL antenna ports for GPS compassing
 - Small form factor:  65.2 x 24.5 x 5.9 mm
