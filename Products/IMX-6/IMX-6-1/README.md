@@ -7,13 +7,13 @@ The **IMX-6**™ is a 10-DOF sensor module consisting of a tactical grade Inerti
 ## Features
 
 - **Tactical Grade IMU**
-  - **Gyro: 0.95 °/hr Bias Instability, 0.10 °/√hr ARW**
+  - **Gyro: 0.9 °/hr Bias Instability, 0.10 °/√hr ARW**
   - **Accel: 4.0 µg Bias Instability, 0.011 m/s/√hr VRW**
 - **INS, AHRS**
   - **Dynamic: 0.03° Roll/Pitch, 0.09° Heading**
   - **Static: 0.1° Roll/Pitch, 0.5° Heading**
 - **Surface Mount Reflowable (PCB Module)**
-- Up to 1 KHz IMU and 500 Hz INS Output Data Rate
+- Up to 8 KHz IMU and 500 Hz INS Output Data Rate
 - Small Form Factor:  15.6 x 12.5 x 2.9 mm
 - Light Weight:  0.9 g
 - Low power consumption:  <110 mW
